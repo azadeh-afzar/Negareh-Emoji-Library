@@ -1,4 +1,4 @@
-Contributions to this project are [released](https://help.github.com/articles/github-terms-of-service/#6-contributions-under-repository-license) to the public under the [project's open source license](LICENSE).
+Contributions to this project are released to the public under the [project's open source license](LICENSE).
 
 Some useful tools in development are:
 
@@ -21,7 +21,7 @@ Runs the test suite.
 script/console
 ```
 
-Opens `irb` console with gemoji library preloded for experimentation.
+Opens `irb` console with negarmoji library preloded for experimentation.
 
 ```
 script/release

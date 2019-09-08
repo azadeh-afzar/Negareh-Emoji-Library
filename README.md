@@ -1,4 +1,4 @@
-gemoji
+negarmoji
 ======
 
 This library contains character information about native emojis.
@@ -7,10 +7,10 @@ This library contains character information about native emojis.
 Installation
 ------------
 
-Add `gemoji` to your Gemfile.
+Add `negarmoji` to your Gemfile.
 
 ``` ruby
-gem 'gemoji'
+gem 'negarmoji'
 ```
 
 
