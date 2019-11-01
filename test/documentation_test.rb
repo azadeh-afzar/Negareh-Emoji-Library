@@ -25,8 +25,8 @@ class DocumentationTest < TestCase
 
   test "replaces emoji syntax with images" do
     assert_equal "It's raining " \
-        '<img alt="cat" src="/images/emoji/unicode/1f431.png?123" style="vertical-align:middle" width="20" height="20" />s and ' \
-        '<img alt="dog" src="/images/emoji/unicode/1f436.png?123" style="vertical-align:middle" width="20" height="20" />s!',
+        '<img alt="cat" src="/images/emoji/1f431.svg?123" style="vertical-align:middle" width="20" height="20" />s and ' \
+        '<img alt="dog" src="/images/emoji/1f436.svg?123" style="vertical-align:middle" width="20" height="20" />s!',
       Helper.emojify("It's raining :cat:s and :dog:s!")
   end
 
