@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage = "https://gitlab.com/Azadeh-Afzar/Web-Development/Negareh-Emoji-Library"
   spec.description = "%(Character information and metadata for Unicode emoji)"
   spec.summary = "Unicode emoji library"
-  spec.licenses = "GPLv3"
+  spec.licenses = "GPL-3.0"
 
   spec.files = `git ls-files -z`.split("\x0")
   spec.executables = spec.files.grep(%r!^bin/!) { |f| File.basename(f) }
