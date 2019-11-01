@@ -3,4 +3,4 @@
 .ruby-version
 Gemfile.lock
 vendor/*
-!vendor/unicode-emoji-test.txt
+!vendor/unicode-negarmoji-test.txt

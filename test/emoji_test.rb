@@ -2,7 +2,7 @@ require 'test_helper'
 require_relative '../db/emoji-test-parser'
 
 class EmojiTest < TestCase
-  test "fetching all emoji" do
+  test "fetching all negarmoji" do
     count = Emoji.all.size
     assert count > 845, "there were too few emojis: #{count}"
   end
@@ -13,20 +13,20 @@ class EmojiTest < TestCase
     assert count > min_size, "there were too few unicode mappings: #{count}"
   end
 
-  test "finding emoji by alias" do
+  test "finding negarmoji by alias" do
     assert_equal 'smile', Emoji.find_by_alias('smile').name
   end
 
-  test "finding nonexistent emoji by alias returns nil" do
+  test "finding nonexistent negarmoji by alias returns nil" do
     assert_nil Emoji.find_by_alias('$$$')
   end
 
-  test "finding emoji by unicode" do
+  test "finding negarmoji by unicode" do
     emoji = Emoji.find_by_unicode("\u{1f604}") # grinning face with smiling eyes
     assert_equal "\u{1f604}", emoji.raw
   end
 
-  test "finding nonexistent emoji by unicode returns nil" do
+  test "finding nonexistent negarmoji by unicode returns nil" do
     assert_nil Emoji.find_by_unicode("\u{1234}")
   end
 
@@ -83,13 +83,13 @@ class EmojiTest < TestCase
 
     duplicates = alias_count.select { |_, count| count > 1 }.keys
 
-    assert_equal [], invalid, "some emoji have invalid names"
-    assert_equal [], duplicates, "some emoji aliases have duplicates"
+    assert_equal [], invalid, "some negarmoji have invalid names"
+    assert_equal [], duplicates, "some negarmoji aliases have duplicates"
     assert_equal [], gender_mismatch, "missing gender variants"
   end
 
   test "missing or incorrect unicodes" do
-    emoji_map, _ = EmojiTestParser.parse(File.expand_path("../../vendor/unicode-emoji-test.txt", __FILE__))
+    emoji_map, _ = EmojiTestParser.parse(File.expand_path("../../vendor/unicode-negarmoji-test.txt", __FILE__))
     source_unicode_emoji = emoji_map.values
     text_glyphs = Emoji.const_get(:TEXT_GLYPHS)
 
@@ -122,9 +122,9 @@ class EmojiTest < TestCase
     assert_equal [], emoji
   end
 
-  test "emoji have category" do
+  test "negarmoji have category" do
     missing = Emoji.all.select { |e| e.category.to_s.empty? }
-    assert_equal [], missing.map(&:name), "some emoji don't have a category"
+    assert_equal [], missing.map(&:name), "some negarmoji don't have a category"
 
     emoji = Emoji.find_by_alias('family_man_woman_girl')
     assert_equal 'People & Body', emoji.category
@@ -143,22 +143,22 @@ class EmojiTest < TestCase
     ], categories
   end
 
-  test "emoji have description" do
+  test "negarmoji have description" do
     missing = Emoji.all.select { |e| e.description.to_s.empty? }
-    assert_equal [], missing.map(&:name), "some emoji don't have a description"
+    assert_equal [], missing.map(&:name), "some negarmoji don't have a description"
 
     emoji = Emoji.find_by_alias('family_man_woman_girl')
     assert_equal 'family: man, woman, girl', emoji.description
   end
 
-  test "emoji have Unicode version" do
+  test "negarmoji have Unicode version" do
     emoji = Emoji.find_by_alias('family_man_woman_girl')
     assert_equal '6.0', emoji.unicode_version
   end
 
-  test "emoji have iOS version" do
+  test "negarmoji have iOS version" do
     missing = Emoji.all.select { |e| e.ios_version.to_s.empty? }
-    assert_equal [], missing.map(&:name), "some emoji don't have an iOS version"
+    assert_equal [], missing.map(&:name), "some negarmoji don't have an iOS version"
 
     emoji = Emoji.find_by_alias('family_man_woman_girl')
     assert_equal '8.3', emoji.ios_version
@@ -184,7 +184,7 @@ class EmojiTest < TestCase
       assert_equal emoji, Emoji.find_by_unicode("\u{266b}")
 
       assert_equal "\u{266b}", emoji.raw
-      assert_equal "unicode/266b.png", emoji.image_filename
+      assert_equal "266b.svg", emoji.image_filename
       assert_equal %w[music], emoji.aliases
       assert_equal %w[notes eighth], emoji.tags
     ensure
@@ -211,7 +211,7 @@ class EmojiTest < TestCase
       assert_equal emoji, Emoji.find_by_alias("music")
       assert_equal [], emoji.unicode_aliases
       assert_equal [], emoji.tags
-      assert_equal "music.png", emoji.image_filename
+      assert_equal "music.svg", emoji.image_filename
     ensure
       Emoji.all.pop
     end
