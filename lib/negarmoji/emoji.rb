@@ -1,14 +1,14 @@
 # encoding: utf-8
 # frozen_string_literal: true
 
-require 'emoji/character'
-require 'json'
+require "negarmoji/character"
+require "json"
 
 module Emoji
   extend self
 
   def data_file
-    File.expand_path('../../db/emoji.json', __FILE__)
+    File.expand_path("../../../db/negarmoji.json", __FILE__)
   end
 
   def all
@@ -26,7 +26,7 @@ module Emoji
     emoji
   end
 
-  # Public: Yield an emoji to the block and update the indices in case its
+  # Public: Yield an negarmoji to the block and update the indices in case its
   # aliases or unicode_aliases lists changed.
   def edit_emoji(emoji)
     @names_index ||= Hash.new
@@ -44,12 +44,12 @@ module Emoji
     emoji
   end
 
-  # Public: Find an emoji by its aliased name. Return nil if missing.
+  # Public: Find an negarmoji by its aliased name. Return nil if missing.
   def find_by_alias(name)
     names_index[name]
   end
 
-  # Public: Find an emoji by its unicode character. Return nil if missing.
+  # Public: Find an negarmoji by its unicode character. Return nil if missing.
   def find_by_unicode(unicode)
     unicodes_index[unicode]
   end
@@ -57,7 +57,7 @@ module Emoji
   private
     VARIATION_SELECTOR_16 = "\u{fe0f}".freeze
 
-    # Characters which must have VARIATION_SELECTOR_16 to render as color emoji:
+  # Characters which must have VARIATION_SELECTOR_16 to render as color negarmoji:
     TEXT_GLYPHS = [
       "\u{1f237}", # Japanese “monthly amount” button
       "\u{1f202}", # Japanese “service charge” button
@@ -149,7 +149,7 @@ module Emoji
     private_constant :VARIATION_SELECTOR_16, :TEXT_GLYPHS
 
     def parse_data_file
-      data = File.open(data_file, 'r:UTF-8') do |file|
+      data = File.open(data_file, "r:UTF-8") do |file|
         JSON.parse(file.read, symbolize_names: true)
       end
 
@@ -170,10 +170,10 @@ module Emoji
       data.each do |raw_emoji|
         self.create(nil) do |emoji|
           raw_emoji.fetch(:aliases).each { |name| emoji.add_alias(dedup.call(name)) }
-          if raw = raw_emoji[:emoji]
+          if (raw = raw_emoji[:emoji])
             append_unicode.call(emoji, raw)
             start_pos = 0
-            while found_index = raw.index(VARIATION_SELECTOR_16, start_pos)
+            while (found_index = raw.index(VARIATION_SELECTOR_16, start_pos))
               # register every variant where one VARIATION_SELECTOR_16 is removed
               raw_alternate = raw.dup
               raw_alternate[found_index] = ""
@@ -209,5 +209,5 @@ module Emoji
     end
 end
 
-# Preload emoji into memory
+# Preload negarmoji into memory
 Emoji.all

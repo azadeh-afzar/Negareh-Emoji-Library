@@ -5,7 +5,7 @@ module Emoji
     # Inspect individual Unicode characters in a string by dumping its
     # codepoints in hexadecimal format.
     def self.hex_inspect(str)
-      str.codepoints.map { |c| c.to_s(16).rjust(4, '0') }.join('-')
+      str.codepoints.map { |c| c.to_s(16).rjust(4, "0") }.join("-")
     end
 
     # True if the emoji is not a standard Emoji character.
@@ -57,7 +57,7 @@ module Emoji
     end
 
     def inspect
-      hex = '(%s)' % hex_inspect unless custom?
+      hex = "(#{hex_inspect unless custom?})"
       %(#<#{self.class.name}:#{name}#{hex}>)
     end
 
@@ -67,22 +67,22 @@ module Emoji
 
     attr_writer :image_filename
 
-    def image_filename
+    def image_filename(extension = "svg")
       if defined? @image_filename
         @image_filename
       else
-        default_image_filename
+        default_image_filename(extension)
       end
     end
 
     private
 
-    def default_image_filename
+    def default_image_filename(extension)
       if custom?
-        '%s.svg' % name
+        "#{name}.#{extension}"
       else
         hex_name = hex_inspect.gsub(/-(fe0f|200d)\b/, '')
-        'unicode/%s.svg' % hex_name
+        "#{hex_name}.#{extension}"
       end
     end
   end
