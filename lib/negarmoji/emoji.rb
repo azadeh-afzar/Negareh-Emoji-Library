@@ -60,15 +60,15 @@ module Emoji # :nodoc:
 
   # Characters which must have VARIATION_SELECTOR_16 to render as color negarmoji:
   TEXT_GLYPHS = [
-      "\u{1f237}", # Japanese "monthly amount" button
-      "\u{1f202}", # Japanese "service charge" button
-      "\u{1f170}", # A button (blood type)
-      "\u{1f171}", # B button (blood type)
-      "\u{1f17e}", # O button (blood type)
-      "\u{00a9}", # copyright
-      "\u{00ae}", # registered
-      "\u{2122}", # trade mark
-      "\u{3030}" # wavy dash
+    "\u{1f237}", # Japanese "monthly amount" button
+    "\u{1f202}", # Japanese "service charge" button
+    "\u{1f170}", # A button (blood type)
+    "\u{1f171}", # B button (blood type)
+    "\u{1f17e}", # O button (blood type)
+    "\u{00a9}", # copyright
+    "\u{00ae}", # registered
+    "\u{2122}", # trade mark
+    "\u{3030}" # wavy dash
   ].freeze
 
   private_constant :VARIATION_SELECTOR_16, :TEXT_GLYPHS
