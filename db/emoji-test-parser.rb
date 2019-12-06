@@ -1,21 +1,16 @@
 # frozen_string_literal: true
 
-module EmojiTestParser
+module EmojiTestParser # :nodoc:
   VARIATION_SELECTOR_16 = "\u{fe0f}"
   SKIN_TONES = [
-    "\u{1F3FB}", # light skin tone
-    "\u{1F3FC}", # medium-light skin tone
-    "\u{1F3FD}", # medium skin tone
-    "\u{1F3FE}", # medium-dark skin tone
-    "\u{1F3FF}", # dark skin tone
-  ]
-  HAIR_MODIFIERS = [
-    "\u{1F9B0}", # red-haired
-    "\u{1F9B1}", # curly-haired
-    "\u{1F9B2}", # bald
-    "\u{1F9B3}", # white-haired
-  ]
-
+      "\u{1F3FB}", # light skin tone
+      "\u{1F3FC}", # medium-light skin tone
+      "\u{1F3FD}", # medium skin tone
+      "\u{1F3FE}", # medium-dark skin tone
+      "\u{1F3FF}" # dark skin tone
+  ].freeze
+  SKIN_TONES_RE = /(#{SKIN_TONES.join("|")})/o
+  SKIP_TYPES = %w(unqualified component)
   module_function
 
   def parse(filename)
@@ -35,16 +30,16 @@ module EmojiTestParser
         if line.start_with?("# group: ")
           _, group_name = line.split(":", 2)
           category = {
-            name: group_name.strip,
-            emoji: [],
+              :name => group_name.strip,
+              :emoji => []
           }
           data << category
           sub_category = nil
         elsif line.start_with?("# subgroup: ")
           _, group_name = line.split(":", 2)
           sub_category = {
-            name: group_name.strip,
-            emoji: [],
+              :name => group_name.strip,
+              :emoji => []
           }
           category[:emoji] << sub_category
         elsif line.start_with?("#") || line.strip.empty?
@@ -52,12 +47,12 @@ module EmojiTestParser
         else
           row, desc = line.split("#", 2)
           desc = desc.strip.split(" ", 2)[1]
-          codepoints, _ = row.split(";", 2)
-          emoji_raw = codepoints.strip.split.map { |c| c.hex }.pack("U*")
-          next if HAIR_MODIFIERS.include?(emoji_raw)
+          codepoints, qualification = row.split(";", 2)
+          next if SKIP_TYPES.include?(qualification.strip)
+          emoji_raw = codepoints.strip.split.map(&:hex).pack("U*")
           emoji_normalized = emoji_raw
-            .gsub(VARIATION_SELECTOR_16, "")
-            .gsub(/(#{SKIN_TONES.join("|")})/o, "")
+                                 .gsub(VARIATION_SELECTOR_16, "")
+                                 .gsub(SKIN_TONES_RE, "")
           emoji_item = emoji_map[emoji_normalized]
           if SKIN_TONES.any? { |s| emoji_raw.include?(s) }
             emoji_item[:skin_tones] = true if emoji_item
@@ -67,15 +62,15 @@ module EmojiTestParser
             emoji_item[:sequences] << emoji_raw
           else
             emoji_item = {
-              sequences: [emoji_raw],
-              description: desc,
+                :sequences => [emoji_raw],
+                :description => desc
             }
             emoji_map[emoji_normalized] = emoji_item
             sub_category[:emoji] << emoji_item
           end
         end
-      rescue
-        warn "line: %p" % line
+      rescue StandardError
+        warn format("line: %<line>p", :line => line)
         raise
       end
     end
@@ -84,28 +79,28 @@ module EmojiTestParser
   end
 end
 
-if $0 == __FILE__
+if $PROGRAM_NAME == __FILE__
   html_output = false
   if ARGV[0] == "--html"
     ARGV.shift
     html_output = true
   end
 
-  _, categories = EmojiTestParser.parse
+  _, categories = EmojiTestParser.parse(File.expand_path("../../vendor/unicode-emoji-test.txt", __FILE__))
 
   trap(:PIPE) { abort }
 
   if html_output
     puts "<!doctype html>"
     puts "<meta charset=utf-8>"
-    for category in categories
+    categories.each do |category|
       puts "<h2>#{category[:name]}</h2>"
-      for sub_category in category[:emoji]
+      category[:emoji].each do |sub_category|
         puts "<h3>#{sub_category[:name]}</h3>"
         puts "<ol>"
-        for char in sub_category[:emoji]
+        sub_category[:emoji].each do |char|
           puts "<li>"
-          for sequence in char[:sequences]
+          char[:sequences].each do |sequence|
             codepoints = sequence.unpack("U*").map { |c| c.to_s(16).upcase }.join(" ")
             printf '<span class=emoji title="%s">%s</span> ', codepoints, sequence
           end
