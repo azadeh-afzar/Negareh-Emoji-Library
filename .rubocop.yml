@@ -1,0 +1,47 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - vendor/**/*
+    - test/**/*
+    - db/**/*
+    - Rakefile
+
+
+Layout/HashAlignment:
+  EnforcedHashRocketStyle: table
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented_relative_to_receiver
+  IndentationWidth: 2
+
+Metrics/AbcSize:
+  Max: 50
+
+Metrics/BlockLength:
+  Max: 50
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/LineLength:
+  Max: 85
+
+Metrics/MethodLength:
+  Max: 40
+
+Metrics/ModuleLength:
+  Max: 200
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Style/HashSyntax:
+  EnforcedStyle: hash_rockets
+
+Style/RegexpLiteral:
+  EnforcedStyle: percent_r
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

@@ -1,13 +1,20 @@
-require 'test_helper'
+# frozen_string_literal: true
+
+require "test_helper"
 
 # Pull the EmojiHelper example from the docs
-readme = File.expand_path('../../README.md', __FILE__)
-docs = File.open(readme, 'r:UTF-8') { |f| f.read }
-eval docs.match(/^module.+?^end/m)[0]
+readme = File.expand_path("../README.md", __dir__)
+docs = File.open(readme, "r:UTF-8", &:read)
+eval docs.match(%r{^module.+?^end}m)[0]
 
 String.class_eval do
-  def html_safe() self end
-  def present?() !empty? end
+  def html_safe
+    self
+  end
+
+  def present?
+    !empty?
+  end
 end
 
 class DocumentationTest < TestCase
@@ -15,7 +22,7 @@ class DocumentationTest < TestCase
     extend EmojiHelper
 
     def self.h(str)
-      str.gsub('<', '&lt;').gsub('>', '&gt;')
+      str.gsub("<", "&lt;").gsub(">", "&gt;")
     end
 
     def self.image_path(img)
@@ -27,7 +34,7 @@ class DocumentationTest < TestCase
     assert_equal "It's raining " \
         '<img alt="cat" src="/images/emoji/1f431.svg?123" style="vertical-align:middle" width="20" height="20" />s and ' \
         '<img alt="dog" src="/images/emoji/1f436.svg?123" style="vertical-align:middle" width="20" height="20" />s!',
-      Helper.emojify("It's raining :cat:s and :dog:s!")
+                 Helper.emojify("It's raining :cat:s and :dog:s!")
   end
 
   test "doesn't replace unknown emoji" do
@@ -37,10 +44,10 @@ class DocumentationTest < TestCase
 
   test "escapes other HTML" do
     assert_equal "You have been &lt;script&gt;alert('pwned!')&lt;/script&gt;",
-      Helper.emojify("You have been <script>alert('pwned!')</script>")
+                 Helper.emojify("You have been <script>alert('pwned!')</script>")
   end
 
   test "returns nil for blank content" do
-    assert_nil Helper.emojify('')
+    assert_nil Helper.emojify("")
   end
 end

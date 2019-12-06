@@ -1,5 +1,5 @@
-require 'test_helper'
-require_relative '../db/emoji-test-parser'
+require "test_helper"
+require_relative "../db/emoji-test-parser"
 
 class EmojiTest < TestCase
   test "fetching all negarmoji" do
@@ -14,11 +14,11 @@ class EmojiTest < TestCase
   end
 
   test "finding negarmoji by alias" do
-    assert_equal 'smile', Emoji.find_by_alias('smile').name
+    assert_equal "smile", Emoji.find_by_alias("smile").name
   end
 
   test "finding nonexistent negarmoji by alias returns nil" do
-    assert_nil Emoji.find_by_alias('$$$')
+    assert_nil Emoji.find_by_alias("$$$")
   end
 
   test "finding negarmoji by unicode" do
@@ -32,7 +32,7 @@ class EmojiTest < TestCase
 
   test "unicode_aliases" do
     emoji = Emoji.find_by_unicode("\u{2728}") # sparkles
-    assert_equal ["2728", "2728-fe0f"], emoji.unicode_aliases.map { |u| Emoji::Character.hex_inspect(u) }
+    assert_equal %w[2728 2728-fe0f], emoji.unicode_aliases.map { |u| Emoji::Character.hex_inspect(u) }
   end
 
   test "unicode_aliases doesn't necessarily include form without VARIATION_SELECTOR_16" do
@@ -41,22 +41,22 @@ class EmojiTest < TestCase
   end
 
   test "emojis have tags" do
-    emoji = Emoji.find_by_alias('smile')
-    assert emoji.tags.include?('happy')
-    assert emoji.tags.include?('joy')
-    assert emoji.tags.include?('pleased')
+    emoji = Emoji.find_by_alias("smile")
+    assert emoji.tags.include?("happy")
+    assert emoji.tags.include?("joy")
+    assert emoji.tags.include?("pleased")
   end
 
   GENDER_EXCEPTIONS = [
-    "man_with_gua_pi_mao",
-    "woman_with_headscarf",
-    "man_in_tuxedo",
-    "pregnant_woman",
-    "isle_of_man",
-    "blonde_woman",
-    /^couple(kiss)?_/,
-    /^family_/,
-  ]
+      "man_with_gua_pi_mao",
+      "woman_with_headscarf",
+      "man_in_tuxedo",
+      "pregnant_woman",
+      "isle_of_man",
+      "blonde_woman",
+      %r{^couple(kiss)?_},
+      %r{^family_}
+  ].freeze
 
   test "emojis have valid names" do
     aliases = Emoji.all.flat_map(&:aliases)
@@ -66,7 +66,7 @@ class EmojiTest < TestCase
       case name
       when *GENDER_EXCEPTIONS then name
       else
-        name.sub(/(?<=^|_)(?:wo)?man(?=_|$)/) do |match|
+        name.sub(%r{(?<=^|_)(?:wo)?man(?=_|$)}) do |match|
           match == "woman" ? "man" : "woman"
         end
       end
@@ -76,7 +76,7 @@ class EmojiTest < TestCase
     alias_count = Hash.new(0)
     aliases.each do |name|
       alias_count[name] += 1
-      invalid << name if name !~ /\A[\w+-]+\Z/
+      invalid << name if name !~ %r{\A[\w+-]+\Z}
       another_gender = to_another_gender.call(name)
       gender_mismatch << another_gender unless aliases.include?(another_gender)
     end
@@ -89,23 +89,20 @@ class EmojiTest < TestCase
   end
 
   test "missing or incorrect unicodes" do
-    emoji_map, _ = EmojiTestParser.parse(File.expand_path("../../vendor/unicode-negarmoji-test.txt", __FILE__))
+    emoji_map, = EmojiTestParser.parse(File.expand_path("../vendor/unicode-emoji-test.txt", __dir__))
     source_unicode_emoji = emoji_map.values
+    supported_sequences = Emoji.all.flat_map(&:unicode_aliases)
     text_glyphs = Emoji.const_get(:TEXT_GLYPHS)
 
     missing = 0
     message = "Missing or incorrect unicodes:\n"
     source_unicode_emoji.each do |emoji|
       emoji[:sequences].each do |raw|
-        found = Emoji.find_by_unicode(raw)
-        if text_glyphs.include?(raw)
-          assert_nil found, Emoji::Character.hex_inspect(raw)
-          next
-        end
-        next if found
-        message << "%s (%s)" % [Emoji::Character.hex_inspect(raw), emoji[:description]]
-        if found = Emoji.find_by_unicode(raw.gsub("\u{fe0f}", ""))
-          message << " - could be %s (:%s:)" % [found.hex_inspect, found.name]
+        next if text_glyphs.include?(raw) || Emoji.find_by_unicode(raw)
+
+        message << format("%s (%s)", Emoji::Character.hex_inspect(raw), emoji[:description])
+        if (found = Emoji.find_by_unicode(raw.gsub("\u{fe0f}", "")))
+          message << format(" - could be %s (:%s:)", found.hex_inspect, found.name)
         end
         message << "\n"
         missing += 1
@@ -115,31 +112,24 @@ class EmojiTest < TestCase
     assert_equal 0, missing, message
   end
 
-  test "raw representation does not include VARIATION SELECTOR 16 unless necessary" do
-    emoji = Emoji.all.select do |emoji|
-      !emoji.custom? && emoji.raw.end_with?("\u{fe0f}") && emoji.unicode_aliases.size == 2
-    end
-    assert_equal [], emoji
-  end
-
   test "negarmoji have category" do
     missing = Emoji.all.select { |e| e.category.to_s.empty? }
     assert_equal [], missing.map(&:name), "some negarmoji don't have a category"
 
-    emoji = Emoji.find_by_alias('family_man_woman_girl')
-    assert_equal 'People & Body', emoji.category
+    emoji = Emoji.find_by_alias("family_man_woman_girl")
+    assert_equal "People & Body", emoji.category
 
     categories = Emoji.all.map(&:category).uniq.compact
     assert_equal [
-      "Smileys & Emotion",
-      "People & Body",
-      "Animals & Nature",
-      "Food & Drink",
-      "Travel & Places",
-      "Activities",
-      "Objects",
-      "Symbols",
-      "Flags",
+                     "Smileys & Emotion",
+                     "People & Body",
+                     "Animals & Nature",
+                     "Food & Drink",
+                     "Travel & Places",
+                     "Activities",
+                     "Objects",
+                     "Symbols",
+                     "Flags"
     ], categories
   end
 
@@ -147,21 +137,21 @@ class EmojiTest < TestCase
     missing = Emoji.all.select { |e| e.description.to_s.empty? }
     assert_equal [], missing.map(&:name), "some negarmoji don't have a description"
 
-    emoji = Emoji.find_by_alias('family_man_woman_girl')
-    assert_equal 'family: man, woman, girl', emoji.description
+    emoji = Emoji.find_by_alias("family_man_woman_girl")
+    assert_equal "family: man, woman, girl", emoji.description
   end
 
   test "negarmoji have Unicode version" do
-    emoji = Emoji.find_by_alias('family_man_woman_girl')
-    assert_equal '6.0', emoji.unicode_version
+    emoji = Emoji.find_by_alias("family_man_woman_girl")
+    assert_equal "6.0", emoji.unicode_version
   end
 
   test "negarmoji have iOS version" do
     missing = Emoji.all.select { |e| e.ios_version.to_s.empty? }
     assert_equal [], missing.map(&:name), "some negarmoji don't have an iOS version"
 
-    emoji = Emoji.find_by_alias('family_man_woman_girl')
-    assert_equal '8.3', emoji.ios_version
+    emoji = Emoji.find_by_alias("family_man_woman_girl")
+    assert_equal "8.3", emoji.ios_version
   end
 
   test "no custom emojis" do
