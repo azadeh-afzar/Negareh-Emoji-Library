@@ -4,7 +4,7 @@ stages:
 
 # default settings for all ci jobs.
 default:
-  image: azadehafzarhub/gitlab-ci-ruby-build:latest
+  image: azadehafzarhub/gitlab-ci-ruby-build:ready
   cache:
     paths:
       - vendor/
