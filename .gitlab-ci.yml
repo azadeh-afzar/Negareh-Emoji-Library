@@ -23,6 +23,7 @@ main_test:
     - ls /usr/local/rvm
     - ls /usr/local/rvm/bin
     - ls /usr/bin
+    - ls /usr/local/bin
     - /usr/local/rvm/bin/rvm
     - echo $PATH
     # - ln -sf /usr/local/rvm/bin/rvm /usr/bin
