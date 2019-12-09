@@ -8,6 +8,8 @@ default:
   cache:
     paths:
       - vendor/
+  before_script:
+    - echo "source /etc/profile.d/rvm.sh" >> ~/.bashrc
 
 # job for testing package against ruby version 2.6
 # on master branch and send test coverage result to
