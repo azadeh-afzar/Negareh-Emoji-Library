@@ -15,8 +15,16 @@ default:
 main_test:
   stage: test
   before_script:
+    # debug code
+    - pwd
+    - ls
+    - ls /usr
+    - ls /usr/local
+    - ls /usr/local/rvm
+    - ls /user/local/rvm/bin
+    - /user/local/rvm/bin/rvm
     # install and use default ruby version 2.6.
-    - rvm instal 2.6
+    - rvm install 2.6
     - rvm use 2.6
     # upgrade bundler to latest version.
     - gem install bundler
@@ -38,7 +46,7 @@ ruby_2_5_test:
   stage: test
   before_script:
     # install and use ruby version 2.5.
-    - rvm instal 2.5
+    - rvm install 2.5
     - rvm use 2.5
     # upgrade bundler to latest version.
     - gem install bundler
@@ -52,7 +60,7 @@ ruby_2_4_test:
   stage: test
   before_script:
     # install and use ruby version 2.4.
-    - rvm instal 2.4
+    - rvm install 2.4
     - rvm use 2.4
     # upgrade bundler to latest version.
     - gem install bundler
@@ -66,7 +74,7 @@ ruby_2_3_test:
   stage: test
   before_script:
     # install and use ruby version 2.3.
-    - rvm instal 2.3
+    - rvm install 2.3
     - rvm use 2.3
     # upgrade bundler to latest version.
     - gem install bundler
@@ -82,7 +90,7 @@ ruby_2_6_test:
   stage: test
   before_script:
     # install and use ruby version 2.3.
-    - rvm instal 2.3
+    - rvm install 2.3
     - rvm use 2.3
     # upgrade bundler to latest version.
     - gem install bundler
