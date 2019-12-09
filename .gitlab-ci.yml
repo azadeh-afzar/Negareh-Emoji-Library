@@ -21,8 +21,8 @@ main_test:
     - ls /usr
     - ls /usr/local
     - ls /usr/local/rvm
-    - ls /user/local/rvm/bin
-    - /user/local/rvm/bin/rvm
+    - ls /usr/local/rvm/bin
+    - /usr/local/rvm/bin/rvm
     # install and use default ruby version 2.6.
     - rvm install 2.6
     - rvm use 2.6
