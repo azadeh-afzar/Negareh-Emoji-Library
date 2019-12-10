@@ -54,6 +54,8 @@ ruby_2_6_test:
   only:
     - branches
     - merge_requests
+  except:
+    - master
 
 ruby_2_5_test:
   stage: test
