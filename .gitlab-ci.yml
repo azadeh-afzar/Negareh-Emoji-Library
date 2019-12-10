@@ -28,11 +28,11 @@ main_test:
     - echo $PATH
     - cat ~/.bashrc
     - cat ~/.bash_profile
-    - source ~/.bashrc
-    - echo $PATH
+    # - source ~/.bashrc
+    # - echo $PATH
     # - echo "export PATH=${PATH}:/usr/local/rvm/bin" >> ~/.bash_profile
-    - source ~/.bash_profile
-    - echo $PATH
+    # - source ~/.bash_profile
+    # - echo $PATH
     # - ln -sf /usr/local/rvm/bin/rvm /usr/bin
     # install and use default ruby version 2.6.
     - rvm install 2.6
