@@ -1,3 +1,4 @@
+# stages of gitlab ci.
 stages:
   - test
   - release
@@ -15,27 +16,9 @@ default:
 main_test:
   stage: test
   before_script:
-    # debug code
-    - pwd
-    - ls
-    - ls /usr
-    - ls /usr/local
-    - ls /usr/local/rvm
-    - ls /usr/local/rvm/bin
-    - ls /usr/bin
-    - ls /usr/local/bin
-    - /usr/local/rvm/bin/rvm
-    - echo $PATH
-    - cat ~/.bashrc
-    - cat ~/.bash_profile
-    # - source ~/.bashrc
-    # - echo $PATH
-    # - echo "export PATH=${PATH}:/usr/local/rvm/bin" >> ~/.bash_profile
+    # setup rvm.
     - source ~/.bash_profile
-    # - echo $PATH
-    # - ln -sf /usr/local/rvm/bin/rvm /usr/bin
-    # install and use default ruby version 2.6.
-    - rvm install 2.6
+    # use ruby version 2.6.
     - rvm use 2.6
     # upgrade bundler to latest version.
     - gem install bundler
@@ -56,8 +39,9 @@ main_test:
 ruby_2_5_test:
   stage: test
   before_script:
-    # install and use ruby version 2.5.
-    - rvm install 2.5
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.5.
     - rvm use 2.5
     # upgrade bundler to latest version.
     - gem install bundler
@@ -70,8 +54,9 @@ ruby_2_5_test:
 ruby_2_4_test:
   stage: test
   before_script:
-    # install and use ruby version 2.4.
-    - rvm install 2.4
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.4.
     - rvm use 2.4
     # upgrade bundler to latest version.
     - gem install bundler
@@ -84,8 +69,9 @@ ruby_2_4_test:
 ruby_2_3_test:
   stage: test
   before_script:
-    # install and use ruby version 2.3.
-    - rvm install 2.3
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.3.
     - rvm use 2.3
     # upgrade bundler to latest version.
     - gem install bundler
@@ -100,9 +86,10 @@ ruby_2_3_test:
 ruby_2_6_test:
   stage: test
   before_script:
-    # install and use ruby version 2.3.
-    - rvm install 2.3
-    - rvm use 2.3
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.6.
+    - rvm use 2.6
     # upgrade bundler to latest version.
     - gem install bundler
     # install dependency gems.
@@ -118,6 +105,10 @@ ruby_2_6_test:
 release_rubygems:
   stage: release
   script:
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.6.
+    - rvm use 2.6
     # create rubygems credential file for auto login.
     - script/ci_rubygems.sh
     # extract tag from git log and strip "v".
