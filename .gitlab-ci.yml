@@ -35,7 +35,26 @@ main_test:
   only:
     - master
 
-# jobs for testing package against many ruby versions.
+# job for testing package on other branches than master
+# and merge requests against 2.6 version.
+ruby_2_6_test:
+  stage: test
+  before_script:
+    # setup rvm.
+    - source ~/.bash_profile
+    # use ruby version 2.6.
+    - rvm use 2.6
+    # upgrade bundler to latest version.
+    - gem install bundler
+    # install dependency gems.
+    - bundle install --path vendor
+  # run tests.
+  script:
+    - script/test.sh
+  only:
+    - branches
+    - merge_requests
+
 ruby_2_5_test:
   stage: test
   before_script:
@@ -80,26 +99,6 @@ ruby_2_3_test:
   # run tests.
   script:
     - script/test.sh
-
-# job for testing package on other branches
-# and merge requests against 2.6 version.
-ruby_2_6_test:
-  stage: test
-  before_script:
-    # setup rvm.
-    - source ~/.bash_profile
-    # use ruby version 2.6.
-    - rvm use 2.6
-    # upgrade bundler to latest version.
-    - gem install bundler
-    # install dependency gems.
-    - bundle install --path vendor
-  # run tests.
-  script:
-    - script/test.sh
-  only:
-    - branches
-    - merge_requests
 
 # deploy gems to rubygems.org whenever a tag is released.
 release_rubygems:
