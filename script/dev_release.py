@@ -66,7 +66,7 @@ print("Writing new version. \n\n")
 new_version_rb = list()
 
 # write new VERSION in version.rb.
-new_version_info = f"    VERSION = \"{new_major}.{new_minor}.{new_patch}\"\n"
+new_version_info = f"  VERSION = \"{new_major}.{new_minor}.{new_patch}\"\n"
 
 # replace old version with new one.
 with open(version_file_path, "r") as file:
