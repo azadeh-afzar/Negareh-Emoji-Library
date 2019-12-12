@@ -98,7 +98,7 @@ make to the code's behavior.  As a bonus these are easiest for someone
 to review, which helps your merge request get merged quickly!  Standard
 advice about good merge requests for open-source projects applies; we
 have [our own writeup][good merge request]
-of this advice. (adapted from mypy guidelines)
+of this advice.
 
 See also our [coding conventions][code conventions] -- which consist mainly of a 
 reference to [Ruby Style Guide][ruby style] -- for the code you
