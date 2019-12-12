@@ -10,13 +10,12 @@ v1.0 by Summer 2021.
 The Azadeh Afzar - Negareh Emoji Library
 v1.0 project milestones:
 
-Milestone name: Add skin tone variations
-Start date of this Milestone: 2019-12-10
+Milestone name: No milestones.
+Start date of this Milestone: None
 
 | Feature | Duration |
 | --- | --- |
-| Find a json package to include skin tones for emojis | 3 weeks
-| Test and Bug fixed | 3 weeks |
+
 
 ## Terminal Roadmap / Timeline
 
@@ -26,3 +25,4 @@ and to declare v1.0 by Jul 2021:
 | Milestone end date | Milestone Name | Key Deliverables |
 | --- | --- | --- |
 | 2019-09-8 | Start | Azadeh Afzar forked Gemoji package from GitHub
+| 2019-12-12| fundamental refactor | Add skin tone variations, update to emoji 12.1
