@@ -13,7 +13,7 @@ default:
 # job for testing package against ruby version 2.6
 # on master branch and send test coverage result to
 # codeclimate.
-main_test:
+test main branch:
   stage: test
   before_script:
     # setup rvm.
@@ -37,7 +37,7 @@ main_test:
 
 # job for testing package on other branches than master
 # and merge requests against 2.6 version.
-ruby_2_6_test:
+test ruby 2.6:
   stage: test
   before_script:
     # setup rvm.
@@ -57,7 +57,7 @@ ruby_2_6_test:
   except:
     - master
 
-ruby_2_5_test:
+test ruby 2.5:
   stage: test
   before_script:
     # setup rvm.
@@ -72,7 +72,7 @@ ruby_2_5_test:
   script:
     - script/test.sh
 
-ruby_2_4_test:
+test ruby 2.4:
   stage: test
   before_script:
     # setup rvm.
@@ -87,7 +87,7 @@ ruby_2_4_test:
   script:
     - script/test.sh
 
-ruby_2_3_test:
+test ruby 2.3:
   stage: test
   before_script:
     # setup rvm.
@@ -103,7 +103,7 @@ ruby_2_3_test:
     - script/test.sh
 
 # deploy gems to rubygems.org whenever a tag is released.
-release_rubygems:
+release to rubygems:
   stage: release
   script:
     # setup rvm.
