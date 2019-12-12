@@ -160,3 +160,22 @@ end
 Emoji.find_by_alias "music"       #=> emoji
 Emoji.find_by_unicode "\u{266b}"  #=> emoji
 ```
+## Contribution
+
+If you want to contribute to this project, please read [CONTRIBUTING](CONTRIBUTING.md).
+
+## Code of Conduct
+
+Visit the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Roadmap
+
+Visit the [Roadmap](ROADMAP.md) to keep track of which features we are currently
+working on.
+
+## License
+
+Licensed under the [GPLv3](LICENSE).
+
+## Attribution
+2. This project is a fork of [Gemoji](https://github.com/github/gemoji). License: MIT
