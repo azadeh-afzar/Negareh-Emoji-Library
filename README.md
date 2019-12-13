@@ -178,4 +178,4 @@ working on.
 Licensed under the [GPLv3](LICENSE).
 
 ## Attribution
-2. This project is a fork of [Gemoji](https://github.com/github/gemoji). License: MIT
+1. This project is a fork of [Gemoji](https://github.com/github/gemoji). License: MIT
