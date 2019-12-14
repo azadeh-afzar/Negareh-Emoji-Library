@@ -60,14 +60,13 @@
 
 > This project is a fork of <a href="https://github.com/github/jemoji">Gemoji</a>. 
 
-negarmoji
-======
+## negarmoji
+
 
 This library contains character information about native emojis.
 
 
-Installation
-------------
+### Installation
 
 Add `negarmoji` to your Gemfile.
 
@@ -76,8 +75,7 @@ gem 'negarmoji'
 ```
 
 
-Example Rails Helper
---------------------
+### Example Rails Helper
 
 This would allow emojifying content such as: `it's raining :cat:s and :dog:s!`
 
@@ -97,8 +95,7 @@ module EmojiHelper
 end
 ```
 
-Unicode mapping
----------------
+### Unicode mapping
 
 Translate emoji names to unicode and vice versa.
 
@@ -110,8 +107,7 @@ Translate emoji names to unicode and vice versa.
 => "cat"
 ```
 
-Adding new emoji
-----------------
+### Adding new emoji
 
 You can add new emoji characters to the `Emoji.all` list:
 
