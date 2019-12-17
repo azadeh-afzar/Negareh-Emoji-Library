@@ -60,7 +60,7 @@
 
 > This project is a fork of <a href="https://github.com/github/jemoji">Gemoji</a>. 
 
-## negarmoji
+## Negareh Emoji Library
 
 
 This library contains character information about native emojis.
