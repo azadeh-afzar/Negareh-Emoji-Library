@@ -61,31 +61,17 @@ class EmojiTest < TestCase
   test "emojis have valid names" do
     aliases = Emoji.all.flat_map(&:aliases)
 
-    gender_mismatch = []
-    to_another_gender = lambda do |name|
-      case name
-      when *GENDER_EXCEPTIONS then name
-      else
-        name.sub(%r{(?<=^|_)(?:wo)?man(?=_|$)}) do |match|
-          match == "woman" ? "man" : "woman"
-        end
-      end
-    end
-
     invalid = []
     alias_count = Hash.new(0)
     aliases.each do |name|
       alias_count[name] += 1
       invalid << name if name !~ %r{\A[\w+-]+\Z}
-      another_gender = to_another_gender.call(name)
-      gender_mismatch << another_gender unless aliases.include?(another_gender)
     end
 
     duplicates = alias_count.select { |_, count| count > 1 }.keys
 
     assert_equal [], invalid, "some negarmoji have invalid names"
     assert_equal [], duplicates, "some negarmoji aliases have duplicates"
-    assert_equal [], gender_mismatch, "missing gender variants"
   end
 
   test "missing or incorrect unicodes" do
@@ -129,7 +115,10 @@ class EmojiTest < TestCase
                      "Activities",
                      "Objects",
                      "Symbols",
-                     "Flags"
+                     "Flags",
+                     "Component",
+                     "Extras & Openmoji",
+                     "Extras & Unicode"
     ], categories
   end
 
