@@ -87,8 +87,7 @@ module Emoji # :nodoc:
       if custom?
         "#{name}.#{extension}"
       else
-        hex_name = hex_inspect.gsub(%r{-(fe0f|200d)\b}, "")
-        "#{hex_name}.#{extension}"
+        "#{hex_inspect}.#{extension}"
       end
     end
   end
