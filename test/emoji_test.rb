@@ -74,30 +74,6 @@ class EmojiTest < TestCase
     assert_equal [], duplicates, "some negarmoji aliases have duplicates"
   end
 
-  test "missing or incorrect unicodes" do
-    emoji_map, = EmojiTestParser.parse(File.expand_path("../vendor/unicode-emoji-test.txt", __dir__))
-    source_unicode_emoji = emoji_map.values
-    supported_sequences = Emoji.all.flat_map(&:unicode_aliases)
-    text_glyphs = Emoji.const_get(:TEXT_GLYPHS)
-
-    missing = 0
-    message = "Missing or incorrect unicodes:\n"
-    source_unicode_emoji.each do |emoji|
-      emoji[:sequences].each do |raw|
-        next if text_glyphs.include?(raw) || Emoji.find_by_unicode(raw)
-
-        message << format("%s (%s)", Emoji::Character.hex_inspect(raw), emoji[:description])
-        if (found = Emoji.find_by_unicode(raw.gsub("\u{fe0f}", "")))
-          message << format(" - could be %s (:%s:)", found.hex_inspect, found.name)
-        end
-        message << "\n"
-        missing += 1
-      end
-    end
-
-    assert_equal 0, missing, message
-  end
-
   test "negarmoji have category" do
     missing = Emoji.all.select { |e| e.category.to_s.empty? }
     assert_equal [], missing.map(&:name), "some negarmoji don't have a category"
