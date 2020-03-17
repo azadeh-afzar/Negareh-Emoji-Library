@@ -61,8 +61,6 @@ test ruby 2.6.5:
     - source ~/.bash_profile
     # use ruby version 2.6.5 .
     - rbenv global 2.6.5
-    # update bundler.
-    - gem install bundler
     # install dependency gems.
     - bundle install --path vendor
   # run tests.
@@ -78,8 +76,6 @@ test ruby 2.5.7:
     - source ~/.bash_profile
     # use ruby version 2.5.7 .
     - rbenv global 2.5.7
-    # update bundler.
-    - gem install bundler
     # install dependency gems.
     - bundle install --path vendor
   # run tests.
