@@ -12,7 +12,7 @@ end
 namespace :db do
   desc %(Generate Emoji data files needed for development)
   task :generate => [
-      "vendor/unicode-negarmoji-test.txt"
+      "vendor/unicode-emoji-test.txt"
   ]
 
   desc %(Dump a list of supported Emoji with Unicode descriptions and aliases)
@@ -22,5 +22,5 @@ namespace :db do
 end
 
 file "vendor/unicode-emoji-test.txt" do |t|
-  system "curl", "-fsSL", "http://unicode.org/Public/emoji/12.1/emoji-test.txt", "-o", t.name
+  system "curl", "-fsSL", "http://unicode.org/Public/emoji/13.0/emoji-test.txt", "-o", t.name
 end
