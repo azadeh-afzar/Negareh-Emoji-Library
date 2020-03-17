@@ -21,7 +21,8 @@ test main branch:
     # use ruby version 2.7.0 .
     - rbenv global 2.7.0
     # install dependency gems.
-    - bundle install --path vendor
+    - bundle config set path 'vendor'
+    - bundle install
     # run codeclimate test reporter agent.
     - cc-test-reporter before-build
   # run tests.
@@ -43,7 +44,8 @@ test ruby 2.7.0:
     # use ruby version 2.7.0 .
     - rbenv global 2.7.0
     # install dependency gems.
-    - bundle install --path vendor
+    - bundle config set path 'vendor'
+    - bundle install
   # run tests.
   script:
     - script/test.sh
@@ -62,7 +64,8 @@ test ruby 2.6.5:
     # use ruby version 2.6.5 .
     - rbenv global 2.6.5
     # install dependency gems.
-    - bundle install --path vendor
+    - bundle config set path 'vendor'
+    - bundle install
   # run tests.
   script:
     - script/test.sh
@@ -77,7 +80,8 @@ test ruby 2.5.7:
     # use ruby version 2.5.7 .
     - rbenv global 2.5.7
     # install dependency gems.
-    - bundle install --path vendor
+    - bundle config set path 'vendor'
+    - bundle install
   # run tests.
   script:
     - script/test.sh
