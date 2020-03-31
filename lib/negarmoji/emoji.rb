@@ -134,5 +134,5 @@ module Emoji # :nodoc:
   end
 end
 
-# Preload negarmoji into memory
+# Preload negarmoji into memory.
 Emoji.all
