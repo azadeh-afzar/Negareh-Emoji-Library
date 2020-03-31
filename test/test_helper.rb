@@ -6,6 +6,7 @@ SimpleCov.minimum_coverage 90
 SimpleCov.start do
   add_filter "/vendor/"
   add_filter "/db/"
+  add_filter "/test/"
 end
 
 require "minitest/autorun"
