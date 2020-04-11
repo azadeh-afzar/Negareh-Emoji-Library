@@ -40989,7 +40989,7 @@
         "description": "goldfish",
         "category": "Extras & Openmoji",
         "aliases": [
-            "goldfish-extra"
+            "goldfish_extra"
         ],
         "tags": [
             ""
@@ -41002,7 +41002,7 @@
         "description": "donkey",
         "category": "Extras & Openmoji",
         "aliases": [
-            "donkey-extra"
+            "donkey_extra"
         ],
         "tags": [
             ""
@@ -41015,7 +41015,7 @@
         "description": "poppy",
         "category": "Extras & Openmoji",
         "aliases": [
-            "poppy-extra"
+            "poppy_extra"
         ],
         "tags": [
             ""
@@ -41028,7 +41028,72 @@
         "description": "doe",
         "category": "Extras & Openmoji",
         "aliases": [
-            "doe-extra"
+            "doe_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "spouting-orca",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "spouting_orca_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "orca",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "orca_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "narwhal",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "narwhal_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "beluga",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "beluga_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "porpoise",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "porpoise_extra"
         ],
         "tags": [
             ""
@@ -41041,7 +41106,7 @@
         "description": "Twitter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "twitter-extra"
+            "twitter_extra"
         ],
         "tags": [
             ""
@@ -41054,7 +41119,7 @@
         "description": "pinterest",
         "category": "Extras & Openmoji",
         "aliases": [
-            "pinterest-extra"
+            "pinterest_extra"
         ],
         "tags": [
             ""
@@ -41067,7 +41132,7 @@
         "description": "facebook",
         "category": "Extras & Openmoji",
         "aliases": [
-            "facebook-extra"
+            "facebook_extra"
         ],
         "tags": [
             ""
@@ -41080,7 +41145,7 @@
         "description": "instagram",
         "category": "Extras & Openmoji",
         "aliases": [
-            "instagram-extra"
+            "instagram_extra"
         ],
         "tags": [
             ""
@@ -41093,7 +41158,7 @@
         "description": "youtube",
         "category": "Extras & Openmoji",
         "aliases": [
-            "youtube-extra"
+            "youtube_extra"
         ],
         "tags": [
             ""
@@ -41106,7 +41171,7 @@
         "description": "github",
         "category": "Extras & Openmoji",
         "aliases": [
-            "github-extra"
+            "github_extra"
         ],
         "tags": [
             ""
@@ -41119,7 +41184,7 @@
         "description": "iceberg",
         "category": "Extras & Openmoji",
         "aliases": [
-            "iceberg-extra"
+            "iceberg_extra"
         ],
         "tags": [
             ""
@@ -41132,7 +41197,7 @@
         "description": "floating ice",
         "category": "Extras & Openmoji",
         "aliases": [
-            "floating_ice-extra"
+            "floating_ice_extra"
         ],
         "tags": [
             ""
@@ -41145,7 +41210,7 @@
         "description": "floating ice broken",
         "category": "Extras & Openmoji",
         "aliases": [
-            "floating_ice_broken-extra"
+            "floating_ice_broken_extra"
         ],
         "tags": [
             ""
@@ -41158,7 +41223,7 @@
         "description": "polar research station",
         "category": "Extras & Openmoji",
         "aliases": [
-            "polar_research_station-extra"
+            "polar_research_station_extra"
         ],
         "tags": [
             ""
@@ -41171,7 +41236,7 @@
         "description": "ice core sample",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ice_core_sample-extra"
+            "ice_core_sample_extra"
         ],
         "tags": [
             ""
@@ -41184,7 +41249,7 @@
         "description": "ice shelf",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ice_shelf-extra"
+            "ice_shelf_extra"
         ],
         "tags": [
             ""
@@ -41197,7 +41262,7 @@
         "description": "ice shelf melting",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ice_shelf_melting-extra"
+            "ice_shelf_melting_extra"
         ],
         "tags": [
             ""
@@ -41210,7 +41275,7 @@
         "description": "polar explorer",
         "category": "Extras & Openmoji",
         "aliases": [
-            "polar_explorer-extra"
+            "polar_explorer_extra"
         ],
         "tags": [
             ""
@@ -41223,7 +41288,7 @@
         "description": "polar explorer man",
         "category": "Extras & Openmoji",
         "aliases": [
-            "polar_explorer_man-extra"
+            "polar_explorer_man_extra"
         ],
         "tags": [
             ""
@@ -41236,7 +41301,7 @@
         "description": "polar explorer woman",
         "category": "Extras & Openmoji",
         "aliases": [
-            "polar_explorer_woman-extra"
+            "polar_explorer_woman_extra"
         ],
         "tags": [
             ""
@@ -41249,7 +41314,7 @@
         "description": "oil spill",
         "category": "Extras & Openmoji",
         "aliases": [
-            "oil_spill-extra"
+            "oil_spill_extra"
         ],
         "tags": [
             ""
@@ -41262,7 +41327,7 @@
         "description": "exhaust gases factory",
         "category": "Extras & Openmoji",
         "aliases": [
-            "exhaust_gases_factory-extra"
+            "exhaust_gases_factory_extra"
         ],
         "tags": [
             ""
@@ -41275,7 +41340,7 @@
         "description": "solar energy",
         "category": "Extras & Openmoji",
         "aliases": [
-            "solar_energy-extra"
+            "solar_energy_extra"
         ],
         "tags": [
             ""
@@ -41288,7 +41353,7 @@
         "description": "meat consumption",
         "category": "Extras & Openmoji",
         "aliases": [
-            "meat_consumption-extra"
+            "meat_consumption_extra"
         ],
         "tags": [
             ""
@@ -41301,7 +41366,7 @@
         "description": "exhaust gases car",
         "category": "Extras & Openmoji",
         "aliases": [
-            "exhaust_gases_car-extra"
+            "exhaust_gases_car_extra"
         ],
         "tags": [
             ""
@@ -41314,7 +41379,7 @@
         "description": "sea level rise",
         "category": "Extras & Openmoji",
         "aliases": [
-            "sea_level_rise-extra"
+            "sea_level_rise_extra"
         ],
         "tags": [
             ""
@@ -41327,7 +41392,7 @@
         "description": "wind energy",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wind_energy-extra"
+            "wind_energy_extra"
         ],
         "tags": [
             ""
@@ -41340,7 +41405,7 @@
         "description": "reusable bag",
         "category": "Extras & Openmoji",
         "aliases": [
-            "reusable_bag-extra"
+            "reusable_bag_extra"
         ],
         "tags": [
             ""
@@ -41353,7 +41418,7 @@
         "description": "radioactive waste",
         "category": "Extras & Openmoji",
         "aliases": [
-            "radioactive_waste-extra"
+            "radioactive_waste_extra"
         ],
         "tags": [
             ""
@@ -41366,7 +41431,7 @@
         "description": "nuclear power plant",
         "category": "Extras & Openmoji",
         "aliases": [
-            "nuclear_power_plant-extra"
+            "nuclear_power_plant_extra"
         ],
         "tags": [
             ""
@@ -41379,7 +41444,7 @@
         "description": "nuclear power plant ruin",
         "category": "Extras & Openmoji",
         "aliases": [
-            "nuclear_power_plant_ruin-extra"
+            "nuclear_power_plant_ruin_extra"
         ],
         "tags": [
             ""
@@ -41392,7 +41457,7 @@
         "description": "geiger counter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "geiger_counter-extra"
+            "geiger_counter_extra"
         ],
         "tags": [
             ""
@@ -41405,7 +41470,7 @@
         "description": "nuclear worker man",
         "category": "Extras & Openmoji",
         "aliases": [
-            "nuclear_worker_man-extra"
+            "nuclear_worker_man_extra"
         ],
         "tags": [
             ""
@@ -41418,7 +41483,7 @@
         "description": "nuclear worker woman",
         "category": "Extras & Openmoji",
         "aliases": [
-            "nuclear_worker_woman-extra"
+            "nuclear_worker_woman_extra"
         ],
         "tags": [
             ""
@@ -41431,7 +41496,7 @@
         "description": "nuclear protection",
         "category": "Extras & Openmoji",
         "aliases": [
-            "nuclear_protection-extra"
+            "nuclear_protection_extra"
         ],
         "tags": [
             ""
@@ -41444,7 +41509,7 @@
         "description": "atom bomb",
         "category": "Extras & Openmoji",
         "aliases": [
-            "atom_bomb-extra"
+            "atom_bomb_extra"
         ],
         "tags": [
             ""
@@ -41457,7 +41522,7 @@
         "description": "assembly point",
         "category": "Extras & Openmoji",
         "aliases": [
-            "assembly_point-extra"
+            "assembly_point_extra"
         ],
         "tags": [
             ""
@@ -41470,7 +41535,7 @@
         "description": "assembly group",
         "category": "Extras & Openmoji",
         "aliases": [
-            "assembly_group-extra"
+            "assembly_group_extra"
         ],
         "tags": [
             ""
@@ -41483,7 +41548,7 @@
         "description": "authority instruction",
         "category": "Extras & Openmoji",
         "aliases": [
-            "authority_instruction-extra"
+            "authority_instruction_extra"
         ],
         "tags": [
             ""
@@ -41496,7 +41561,7 @@
         "description": "help others",
         "category": "Extras & Openmoji",
         "aliases": [
-            "help_others-extra"
+            "help_others_extra"
         ],
         "tags": [
             ""
@@ -41509,7 +41574,7 @@
         "description": "drop cover hold",
         "category": "Extras & Openmoji",
         "aliases": [
-            "drop_cover_hold-extra"
+            "drop_cover_hold_extra"
         ],
         "tags": [
             ""
@@ -41522,7 +41587,7 @@
         "description": "evacuate",
         "category": "Extras & Openmoji",
         "aliases": [
-            "evacuate-extra"
+            "evacuate_extra"
         ],
         "tags": [
             ""
@@ -41535,7 +41600,7 @@
         "description": "evacuate vertical",
         "category": "Extras & Openmoji",
         "aliases": [
-            "evacuate_vertical-extra"
+            "evacuate_vertical_extra"
         ],
         "tags": [
             ""
@@ -41548,7 +41613,7 @@
         "description": "evacuate downstairs",
         "category": "Extras & Openmoji",
         "aliases": [
-            "evacuate_downstairs-extra"
+            "evacuate_downstairs_extra"
         ],
         "tags": [
             ""
@@ -41561,7 +41626,7 @@
         "description": "evacuate to shelter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "evacuate_to_shelter-extra"
+            "evacuate_to_shelter_extra"
         ],
         "tags": [
             ""
@@ -41574,7 +41639,7 @@
         "description": "structural fire",
         "category": "Extras & Openmoji",
         "aliases": [
-            "structural_fire-extra"
+            "structural_fire_extra"
         ],
         "tags": [
             ""
@@ -41587,7 +41652,7 @@
         "description": "wild fire",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wild_fire-extra"
+            "wild_fire_extra"
         ],
         "tags": [
             ""
@@ -41600,7 +41665,7 @@
         "description": "evacuate fire",
         "category": "Extras & Openmoji",
         "aliases": [
-            "evacuate_fire-extra"
+            "evacuate_fire_extra"
         ],
         "tags": [
             ""
@@ -41613,7 +41678,7 @@
         "description": "warning tsunami",
         "category": "Extras & Openmoji",
         "aliases": [
-            "warning_tsunami-extra"
+            "warning_tsunami_extra"
         ],
         "tags": [
             ""
@@ -41626,7 +41691,7 @@
         "description": "warning volcano",
         "category": "Extras & Openmoji",
         "aliases": [
-            "warning_volcano-extra"
+            "warning_volcano_extra"
         ],
         "tags": [
             ""
@@ -41639,7 +41704,7 @@
         "description": "warning fire",
         "category": "Extras & Openmoji",
         "aliases": [
-            "warning_fire-extra"
+            "warning_fire_extra"
         ],
         "tags": [
             ""
@@ -41652,7 +41717,7 @@
         "description": "authority",
         "category": "Extras & Openmoji",
         "aliases": [
-            "authority-extra"
+            "authority_extra"
         ],
         "tags": [
             ""
@@ -41665,7 +41730,7 @@
         "description": "first aid",
         "category": "Extras & Openmoji",
         "aliases": [
-            "first_aid-extra"
+            "first_aid_extra"
         ],
         "tags": [
             ""
@@ -41678,7 +41743,7 @@
         "description": "flagged point",
         "category": "Extras & Openmoji",
         "aliases": [
-            "flagged_point-extra"
+            "flagged_point_extra"
         ],
         "tags": [
             ""
@@ -41691,7 +41756,7 @@
         "description": "flagged building",
         "category": "Extras & Openmoji",
         "aliases": [
-            "flagged_building-extra"
+            "flagged_building_extra"
         ],
         "tags": [
             ""
@@ -41704,7 +41769,7 @@
         "description": "authority building",
         "category": "Extras & Openmoji",
         "aliases": [
-            "authority_building-extra"
+            "authority_building_extra"
         ],
         "tags": [
             ""
@@ -41717,7 +41782,7 @@
         "description": "signpost",
         "category": "Extras & Openmoji",
         "aliases": [
-            "signpost-extra"
+            "signpost_extra"
         ],
         "tags": [
             ""
@@ -41730,7 +41795,7 @@
         "description": "mobile info",
         "category": "Extras & Openmoji",
         "aliases": [
-            "mobile_info-extra"
+            "mobile_info_extra"
         ],
         "tags": [
             ""
@@ -41743,7 +41808,7 @@
         "description": "mobile message",
         "category": "Extras & Openmoji",
         "aliases": [
-            "mobile_message-extra"
+            "mobile_message_extra"
         ],
         "tags": [
             ""
@@ -41756,7 +41821,7 @@
         "description": "charge plug",
         "category": "Extras & Openmoji",
         "aliases": [
-            "charge_plug-extra"
+            "charge_plug_extra"
         ],
         "tags": [
             ""
@@ -41769,7 +41834,7 @@
         "description": "shelter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "shelter-extra"
+            "shelter_extra"
         ],
         "tags": [
             ""
@@ -41782,7 +41847,7 @@
         "description": "volcano eruption",
         "category": "Extras & Openmoji",
         "aliases": [
-            "volcano_eruption-extra"
+            "volcano_eruption_extra"
         ],
         "tags": [
             ""
@@ -41795,7 +41860,7 @@
         "description": "volcano ashes",
         "category": "Extras & Openmoji",
         "aliases": [
-            "volcano_ashes-extra"
+            "volcano_ashes_extra"
         ],
         "tags": [
             ""
@@ -41808,7 +41873,7 @@
         "description": "tsunami",
         "category": "Extras & Openmoji",
         "aliases": [
-            "tsunami-extra"
+            "tsunami_extra"
         ],
         "tags": [
             ""
@@ -41821,7 +41886,7 @@
         "description": "earthquake",
         "category": "Extras & Openmoji",
         "aliases": [
-            "earthquake-extra"
+            "earthquake_extra"
         ],
         "tags": [
             ""
@@ -41834,7 +41899,7 @@
         "description": "landslide",
         "category": "Extras & Openmoji",
         "aliases": [
-            "landslide-extra"
+            "landslide_extra"
         ],
         "tags": [
             ""
@@ -41847,7 +41912,7 @@
         "description": "avalanche",
         "category": "Extras & Openmoji",
         "aliases": [
-            "avalanche-extra"
+            "avalanche_extra"
         ],
         "tags": [
             ""
@@ -41860,7 +41925,7 @@
         "description": "flood",
         "category": "Extras & Openmoji",
         "aliases": [
-            "flood-extra"
+            "flood_extra"
         ],
         "tags": [
             ""
@@ -41873,7 +41938,7 @@
         "description": "north",
         "category": "Extras & Openmoji",
         "aliases": [
-            "north-extra"
+            "north_extra"
         ],
         "tags": [
             ""
@@ -41886,7 +41951,7 @@
         "description": "transmission",
         "category": "Extras & Openmoji",
         "aliases": [
-            "transmission-extra"
+            "transmission_extra"
         ],
         "tags": [
             ""
@@ -41899,7 +41964,7 @@
         "description": "sos stencil",
         "category": "Extras & Openmoji",
         "aliases": [
-            "sos_stencil-extra"
+            "sos_stencil_extra"
         ],
         "tags": [
             ""
@@ -41912,7 +41977,7 @@
         "description": "ok stencil",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ok_stencil-extra"
+            "ok_stencil_extra"
         ],
         "tags": [
             ""
@@ -41925,7 +41990,7 @@
         "description": "no stencil",
         "category": "Extras & Openmoji",
         "aliases": [
-            "no_stencil-extra"
+            "no_stencil_extra"
         ],
         "tags": [
             ""
@@ -41938,7 +42003,7 @@
         "description": "warning strip",
         "category": "Extras & Openmoji",
         "aliases": [
-            "warning_strip-extra"
+            "warning_strip_extra"
         ],
         "tags": [
             ""
@@ -41951,7 +42016,7 @@
         "description": "warning strip right",
         "category": "Extras & Openmoji",
         "aliases": [
-            "warning_strip_right-extra"
+            "warning_strip_right_extra"
         ],
         "tags": [
             ""
@@ -41964,7 +42029,7 @@
         "description": "arrow turn right",
         "category": "Extras & Openmoji",
         "aliases": [
-            "arrow_turn_right-extra"
+            "arrow_turn_right_extra"
         ],
         "tags": [
             ""
@@ -41977,7 +42042,7 @@
         "description": "emergency exit door",
         "category": "Extras & Openmoji",
         "aliases": [
-            "emergency_exit_door-extra"
+            "emergency_exit_door_extra"
         ],
         "tags": [
             ""
@@ -41990,7 +42055,7 @@
         "description": "location indicator red",
         "category": "Extras & Openmoji",
         "aliases": [
-            "location_indicator_red-extra"
+            "location_indicator_red_extra"
         ],
         "tags": [
             ""
@@ -42003,7 +42068,7 @@
         "description": "electric plug red",
         "category": "Extras & Openmoji",
         "aliases": [
-            "electric_plug_red-extra"
+            "electric_plug_red_extra"
         ],
         "tags": [
             ""
@@ -42016,7 +42081,7 @@
         "description": "timer",
         "category": "Extras & Openmoji",
         "aliases": [
-            "timer-extra"
+            "timer_extra"
         ],
         "tags": [
             ""
@@ -42029,7 +42094,7 @@
         "description": "half orange fruit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "half_orange_fruit-extra"
+            "half_orange_fruit_extra"
         ],
         "tags": [
             ""
@@ -42042,7 +42107,7 @@
         "description": "maultasche",
         "category": "Extras & Openmoji",
         "aliases": [
-            "maultasche-extra"
+            "maultasche_extra"
         ],
         "tags": [
             ""
@@ -42055,7 +42120,7 @@
         "description": "lentils with spaetzle",
         "category": "Extras & Openmoji",
         "aliases": [
-            "lentils_with_spaetzle-extra"
+            "lentils_with_spaetzle_extra"
         ],
         "tags": [
             ""
@@ -42068,7 +42133,7 @@
         "description": "pretzel",
         "category": "Extras & Openmoji",
         "aliases": [
-            "pretzel-extra"
+            "pretzel_extra"
         ],
         "tags": [
             ""
@@ -42081,7 +42146,7 @@
         "description": "pomegranate",
         "category": "Extras & Openmoji",
         "aliases": [
-            "pomegranate-extra"
+            "pomegranate_extra"
         ],
         "tags": [
             ""
@@ -42094,7 +42159,7 @@
         "description": "female doctor",
         "category": "Extras & Openmoji",
         "aliases": [
-            "female_doctor-extra"
+            "female_doctor_extra"
         ],
         "tags": [
             ""
@@ -42107,7 +42172,7 @@
         "description": "male doctor",
         "category": "Extras & Openmoji",
         "aliases": [
-            "male_doctor-extra"
+            "male_doctor_extra"
         ],
         "tags": [
             ""
@@ -42120,7 +42185,7 @@
         "description": "female nurse",
         "category": "Extras & Openmoji",
         "aliases": [
-            "female_nurse-extra"
+            "female_nurse_extra"
         ],
         "tags": [
             ""
@@ -42133,7 +42198,7 @@
         "description": "male nurse",
         "category": "Extras & Openmoji",
         "aliases": [
-            "male_nurse-extra"
+            "male_nurse_extra"
         ],
         "tags": [
             ""
@@ -42146,7 +42211,7 @@
         "description": "shot",
         "category": "Extras & Openmoji",
         "aliases": [
-            "shot-extra"
+            "shot_extra"
         ],
         "tags": [
             ""
@@ -42159,7 +42224,7 @@
         "description": "pills",
         "category": "Extras & Openmoji",
         "aliases": [
-            "pills-extra"
+            "pills_extra"
         ],
         "tags": [
             ""
@@ -42172,7 +42237,7 @@
         "description": "plaster",
         "category": "Extras & Openmoji",
         "aliases": [
-            "plaster-extra"
+            "plaster_extra"
         ],
         "tags": [
             ""
@@ -42185,7 +42250,7 @@
         "description": "medication",
         "category": "Extras & Openmoji",
         "aliases": [
-            "medication-extra"
+            "medication_extra"
         ],
         "tags": [
             ""
@@ -42198,7 +42263,7 @@
         "description": "ecg waves",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ecg_waves-extra"
+            "ecg_waves_extra"
         ],
         "tags": [
             ""
@@ -42211,7 +42276,7 @@
         "description": "first aid bag",
         "category": "Extras & Openmoji",
         "aliases": [
-            "first_aid_bag-extra"
+            "first_aid_bag_extra"
         ],
         "tags": [
             ""
@@ -42224,7 +42289,7 @@
         "description": "patient file",
         "category": "Extras & Openmoji",
         "aliases": [
-            "patient_file-extra"
+            "patient_file_extra"
         ],
         "tags": [
             ""
@@ -42237,7 +42302,7 @@
         "description": "patient clipboard",
         "category": "Extras & Openmoji",
         "aliases": [
-            "patient_clipboard-extra"
+            "patient_clipboard_extra"
         ],
         "tags": [
             ""
@@ -42250,7 +42315,7 @@
         "description": "saline drip",
         "category": "Extras & Openmoji",
         "aliases": [
-            "saline_drip-extra"
+            "saline_drip_extra"
         ],
         "tags": [
             ""
@@ -42263,7 +42328,7 @@
         "description": "blood transfusion",
         "category": "Extras & Openmoji",
         "aliases": [
-            "blood_transfusion-extra"
+            "blood_transfusion_extra"
         ],
         "tags": [
             ""
@@ -42276,7 +42341,7 @@
         "description": "swab pliers",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swab_pliers-extra"
+            "swab_pliers_extra"
         ],
         "tags": [
             ""
@@ -42289,7 +42354,7 @@
         "description": "hot-water bottle",
         "category": "Extras & Openmoji",
         "aliases": [
-            "hot_water_bottle-extra"
+            "hot_water_bottle_extra"
         ],
         "tags": [
             ""
@@ -42302,7 +42367,7 @@
         "description": "liver",
         "category": "Extras & Openmoji",
         "aliases": [
-            "liver-extra"
+            "liver_extra"
         ],
         "tags": [
             ""
@@ -42315,7 +42380,7 @@
         "description": "stomach",
         "category": "Extras & Openmoji",
         "aliases": [
-            "stomach-extra"
+            "stomach_extra"
         ],
         "tags": [
             ""
@@ -42328,7 +42393,7 @@
         "description": "large intestine",
         "category": "Extras & Openmoji",
         "aliases": [
-            "large_intestine-extra"
+            "large_intestine_extra"
         ],
         "tags": [
             ""
@@ -42341,7 +42406,7 @@
         "description": "intestine",
         "category": "Extras & Openmoji",
         "aliases": [
-            "intestine-extra"
+            "intestine_extra"
         ],
         "tags": [
             ""
@@ -42354,7 +42419,7 @@
         "description": "kidney",
         "category": "Extras & Openmoji",
         "aliases": [
-            "kidney-extra"
+            "kidney_extra"
         ],
         "tags": [
             ""
@@ -42367,7 +42432,7 @@
         "description": "forceps",
         "category": "Extras & Openmoji",
         "aliases": [
-            "forceps-extra"
+            "forceps_extra"
         ],
         "tags": [
             ""
@@ -42380,7 +42445,7 @@
         "description": "brain",
         "category": "Extras & Openmoji",
         "aliases": [
-            "brain-extra"
+            "brain_extra"
         ],
         "tags": [
             ""
@@ -42393,7 +42458,7 @@
         "description": "bed linen",
         "category": "Extras & Openmoji",
         "aliases": [
-            "bed_linen-extra"
+            "bed_linen_extra"
         ],
         "tags": [
             ""
@@ -42406,7 +42471,7 @@
         "description": "bandage change",
         "category": "Extras & Openmoji",
         "aliases": [
-            "bandage_change-extra"
+            "bandage_change_extra"
         ],
         "tags": [
             ""
@@ -42419,7 +42484,7 @@
         "description": "eye pain",
         "category": "Extras & Openmoji",
         "aliases": [
-            "eye_pain-extra"
+            "eye_pain_extra"
         ],
         "tags": [
             ""
@@ -42432,7 +42497,7 @@
         "description": "headache",
         "category": "Extras & Openmoji",
         "aliases": [
-            "headache-extra"
+            "headache_extra"
         ],
         "tags": [
             ""
@@ -42445,7 +42510,7 @@
         "description": "earache",
         "category": "Extras & Openmoji",
         "aliases": [
-            "earache-extra"
+            "earache_extra"
         ],
         "tags": [
             ""
@@ -42458,7 +42523,7 @@
         "description": "fracture leg",
         "category": "Extras & Openmoji",
         "aliases": [
-            "fracture_leg-extra"
+            "fracture_leg_extra"
         ],
         "tags": [
             ""
@@ -42471,7 +42536,7 @@
         "description": "knee pain",
         "category": "Extras & Openmoji",
         "aliases": [
-            "knee_pain-extra"
+            "knee_pain_extra"
         ],
         "tags": [
             ""
@@ -42484,7 +42549,7 @@
         "description": "backache",
         "category": "Extras & Openmoji",
         "aliases": [
-            "backache-extra"
+            "backache_extra"
         ],
         "tags": [
             ""
@@ -42497,7 +42562,7 @@
         "description": "joint pain",
         "category": "Extras & Openmoji",
         "aliases": [
-            "joint_pain-extra"
+            "joint_pain_extra"
         ],
         "tags": [
             ""
@@ -42510,7 +42575,7 @@
         "description": "clinical thermometer",
         "category": "Extras & Openmoji",
         "aliases": [
-            "clinical_thermometer-extra"
+            "clinical_thermometer_extra"
         ],
         "tags": [
             ""
@@ -42523,7 +42588,7 @@
         "description": "bandage scissors",
         "category": "Extras & Openmoji",
         "aliases": [
-            "bandage_scissors-extra"
+            "bandage_scissors_extra"
         ],
         "tags": [
             ""
@@ -42536,7 +42601,7 @@
         "description": "crutches",
         "category": "Extras & Openmoji",
         "aliases": [
-            "crutches-extra"
+            "crutches_extra"
         ],
         "tags": [
             ""
@@ -42549,7 +42614,7 @@
         "description": "wheel chair",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wheel_chair-extra"
+            "wheel_chair_extra"
         ],
         "tags": [
             ""
@@ -42562,7 +42627,7 @@
         "description": "stretcher",
         "category": "Extras & Openmoji",
         "aliases": [
-            "stretcher-extra"
+            "stretcher_extra"
         ],
         "tags": [
             ""
@@ -42575,7 +42640,7 @@
         "description": "ct scan",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ct_scan-extra"
+            "ct_scan_extra"
         ],
         "tags": [
             ""
@@ -42588,7 +42653,7 @@
         "description": "scales",
         "category": "Extras & Openmoji",
         "aliases": [
-            "scales-extra"
+            "scales_extra"
         ],
         "tags": [
             ""
@@ -42601,7 +42666,7 @@
         "description": "tap",
         "category": "Extras & Openmoji",
         "aliases": [
-            "tap-extra"
+            "tap_extra"
         ],
         "tags": [
             ""
@@ -42614,7 +42679,7 @@
         "description": "double tap",
         "category": "Extras & Openmoji",
         "aliases": [
-            "double_tap-extra"
+            "double_tap_extra"
         ],
         "tags": [
             ""
@@ -42627,7 +42692,7 @@
         "description": "three finger operation",
         "category": "Extras & Openmoji",
         "aliases": [
-            "three_finger_operation-extra"
+            "three_finger_operation_extra"
         ],
         "tags": [
             ""
@@ -42640,7 +42705,7 @@
         "description": "move",
         "category": "Extras & Openmoji",
         "aliases": [
-            "move-extra"
+            "move_extra"
         ],
         "tags": [
             ""
@@ -42653,7 +42718,7 @@
         "description": "scroll",
         "category": "Extras & Openmoji",
         "aliases": [
-            "scroll-extra"
+            "scroll_extra"
         ],
         "tags": [
             ""
@@ -42666,7 +42731,7 @@
         "description": "swipe",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swipe-extra"
+            "swipe_extra"
         ],
         "tags": [
             ""
@@ -42679,7 +42744,7 @@
         "description": "scroll horizontal",
         "category": "Extras & Openmoji",
         "aliases": [
-            "scroll_horizontal-extra"
+            "scroll_horizontal_extra"
         ],
         "tags": [
             ""
@@ -42692,7 +42757,7 @@
         "description": "page move",
         "category": "Extras & Openmoji",
         "aliases": [
-            "page_move-extra"
+            "page_move_extra"
         ],
         "tags": [
             ""
@@ -42705,7 +42770,7 @@
         "description": "swipe left",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swipe_left-extra"
+            "swipe_left_extra"
         ],
         "tags": [
             ""
@@ -42718,7 +42783,7 @@
         "description": "swipe up",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swipe_up-extra"
+            "swipe_up_extra"
         ],
         "tags": [
             ""
@@ -42731,7 +42796,7 @@
         "description": "swipe right",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swipe_right-extra"
+            "swipe_right_extra"
         ],
         "tags": [
             ""
@@ -42744,7 +42809,7 @@
         "description": "swipe down",
         "category": "Extras & Openmoji",
         "aliases": [
-            "swipe_down-extra"
+            "swipe_down_extra"
         ],
         "tags": [
             ""
@@ -42757,7 +42822,7 @@
         "description": "finger pushing button",
         "category": "Extras & Openmoji",
         "aliases": [
-            "finger_pushing_button-extra"
+            "finger_pushing_button_extra"
         ],
         "tags": [
             ""
@@ -42770,7 +42835,7 @@
         "description": "exit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "exit-extra"
+            "exit_extra"
         ],
         "tags": [
             ""
@@ -42783,7 +42848,7 @@
         "description": "first aid kit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "first_aid_kit-extra"
+            "first_aid_kit_extra"
         ],
         "tags": [
             ""
@@ -42796,7 +42861,7 @@
         "description": "armchair",
         "category": "Extras & Openmoji",
         "aliases": [
-            "armchair-extra"
+            "armchair_extra"
         ],
         "tags": [
             ""
@@ -42809,7 +42874,7 @@
         "description": "picture",
         "category": "Extras & Openmoji",
         "aliases": [
-            "picture-extra"
+            "picture_extra"
         ],
         "tags": [
             ""
@@ -42822,7 +42887,7 @@
         "description": "lighter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "lighter-extra"
+            "lighter_extra"
         ],
         "tags": [
             ""
@@ -42835,7 +42900,7 @@
         "description": "outlet",
         "category": "Extras & Openmoji",
         "aliases": [
-            "outlet-extra"
+            "outlet_extra"
         ],
         "tags": [
             ""
@@ -42848,7 +42913,7 @@
         "description": "spätzlepresse",
         "category": "Extras & Openmoji",
         "aliases": [
-            "spatzlepresse-extra"
+            "spatzlepresse_extra"
         ],
         "tags": [
             ""
@@ -42861,7 +42926,7 @@
         "description": "european name badge",
         "category": "Extras & Openmoji",
         "aliases": [
-            "european_name_badge-extra"
+            "european_name_badge_extra"
         ],
         "tags": [
             ""
@@ -42874,7 +42939,7 @@
         "description": "kehrwoche",
         "category": "Extras & Openmoji",
         "aliases": [
-            "kehrwoche-extra"
+            "kehrwoche_extra"
         ],
         "tags": [
             ""
@@ -42887,7 +42952,7 @@
         "description": "drunk person",
         "category": "Extras & Openmoji",
         "aliases": [
-            "drunk_person-extra"
+            "drunk_person_extra"
         ],
         "tags": [
             ""
@@ -42900,7 +42965,7 @@
         "description": "person with dog",
         "category": "Extras & Openmoji",
         "aliases": [
-            "person_with_dog-extra"
+            "person_with_dog_extra"
         ],
         "tags": [
             ""
@@ -42913,7 +42978,7 @@
         "description": "trump",
         "category": "Extras & Openmoji",
         "aliases": [
-            "trump-extra"
+            "trump_extra"
         ],
         "tags": [
             ""
@@ -42926,7 +42991,7 @@
         "description": "horse riding",
         "category": "Extras & Openmoji",
         "aliases": [
-            "horse_riding-extra"
+            "horse_riding_extra"
         ],
         "tags": [
             ""
@@ -42939,7 +43004,7 @@
         "description": "exhausted face",
         "category": "Extras & Openmoji",
         "aliases": [
-            "exhausted_face-extra"
+            "exhausted_face_extra"
         ],
         "tags": [
             ""
@@ -42952,7 +43017,20 @@
         "description": "incredulous face",
         "category": "Extras & Openmoji",
         "aliases": [
-            "incredulous_face-extra"
+            "incredulous_face_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "no handshaking",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "no_handshaking_extra"
         ],
         "tags": [
             ""
@@ -42965,7 +43043,7 @@
         "description": "wireframes",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wireframes-extra"
+            "wireframes_extra"
         ],
         "tags": [
             ""
@@ -42978,7 +43056,7 @@
         "description": "code editor",
         "category": "Extras & Openmoji",
         "aliases": [
-            "code_editor-extra"
+            "code_editor_extra"
         ],
         "tags": [
             ""
@@ -42991,7 +43069,7 @@
         "description": "autonomous car",
         "category": "Extras & Openmoji",
         "aliases": [
-            "autonomous_car-extra"
+            "autonomous_car_extra"
         ],
         "tags": [
             ""
@@ -43004,7 +43082,7 @@
         "description": "switch",
         "category": "Extras & Openmoji",
         "aliases": [
-            "switch-extra"
+            "switch_extra"
         ],
         "tags": [
             ""
@@ -43017,7 +43095,7 @@
         "description": "surveillance",
         "category": "Extras & Openmoji",
         "aliases": [
-            "surveillance-extra"
+            "surveillance_extra"
         ],
         "tags": [
             ""
@@ -43030,7 +43108,7 @@
         "description": "mouse",
         "category": "Extras & Openmoji",
         "aliases": [
-            "mouse-extra"
+            "mouse_extra"
         ],
         "tags": [
             ""
@@ -43043,7 +43121,7 @@
         "description": "augmented reality",
         "category": "Extras & Openmoji",
         "aliases": [
-            "augmented_reality-extra"
+            "augmented_reality_extra"
         ],
         "tags": [
             ""
@@ -43056,7 +43134,7 @@
         "description": "led",
         "category": "Extras & Openmoji",
         "aliases": [
-            "led-extra"
+            "led_extra"
         ],
         "tags": [
             ""
@@ -43069,7 +43147,7 @@
         "description": "motor",
         "category": "Extras & Openmoji",
         "aliases": [
-            "motor-extra"
+            "motor_extra"
         ],
         "tags": [
             ""
@@ -43082,7 +43160,7 @@
         "description": "raspberry pi",
         "category": "Extras & Openmoji",
         "aliases": [
-            "raspberry_pi-extra"
+            "raspberry_pi_extra"
         ],
         "tags": [
             ""
@@ -43095,7 +43173,7 @@
         "description": "virtual reality",
         "category": "Extras & Openmoji",
         "aliases": [
-            "virtual_reality-extra"
+            "virtual_reality_extra"
         ],
         "tags": [
             ""
@@ -43108,7 +43186,7 @@
         "description": "cable",
         "category": "Extras & Openmoji",
         "aliases": [
-            "cable-extra"
+            "cable_extra"
         ],
         "tags": [
             ""
@@ -43121,7 +43199,7 @@
         "description": "tablet",
         "category": "Extras & Openmoji",
         "aliases": [
-            "tablet-extra"
+            "tablet_extra"
         ],
         "tags": [
             ""
@@ -43134,7 +43212,7 @@
         "description": "gps",
         "category": "Extras & Openmoji",
         "aliases": [
-            "gps-extra"
+            "gps_extra"
         ],
         "tags": [
             ""
@@ -43147,7 +43225,7 @@
         "description": "smartwatch",
         "category": "Extras & Openmoji",
         "aliases": [
-            "smartwatch-extra"
+            "smartwatch_extra"
         ],
         "tags": [
             ""
@@ -43160,7 +43238,7 @@
         "description": "washing machine",
         "category": "Extras & Openmoji",
         "aliases": [
-            "washing_machine-extra"
+            "washing_machine_extra"
         ],
         "tags": [
             ""
@@ -43173,7 +43251,7 @@
         "description": "ibeacon",
         "category": "Extras & Openmoji",
         "aliases": [
-            "ibeacon-extra"
+            "ibeacon_extra"
         ],
         "tags": [
             ""
@@ -43186,7 +43264,7 @@
         "description": "keyboard",
         "category": "Extras & Openmoji",
         "aliases": [
-            "keyboard-extra"
+            "keyboard_extra"
         ],
         "tags": [
             ""
@@ -43199,7 +43277,7 @@
         "description": "drone",
         "category": "Extras & Openmoji",
         "aliases": [
-            "drone-extra"
+            "drone_extra"
         ],
         "tags": [
             ""
@@ -43212,7 +43290,7 @@
         "description": "arduino",
         "category": "Extras & Openmoji",
         "aliases": [
-            "arduino-extra"
+            "arduino_extra"
         ],
         "tags": [
             ""
@@ -43225,7 +43303,7 @@
         "description": "wire",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wire-extra"
+            "wire_extra"
         ],
         "tags": [
             ""
@@ -43238,7 +43316,7 @@
         "description": "potentiometer",
         "category": "Extras & Openmoji",
         "aliases": [
-            "potentiometer-extra"
+            "potentiometer_extra"
         ],
         "tags": [
             ""
@@ -43251,7 +43329,7 @@
         "description": "solar cell",
         "category": "Extras & Openmoji",
         "aliases": [
-            "solar_cell-extra"
+            "solar_cell_extra"
         ],
         "tags": [
             ""
@@ -43264,7 +43342,7 @@
         "description": "circuit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "circuit-extra"
+            "circuit_extra"
         ],
         "tags": [
             ""
@@ -43277,7 +43355,7 @@
         "description": "cafeteria",
         "category": "Extras & Openmoji",
         "aliases": [
-            "cafeteria-extra"
+            "cafeteria_extra"
         ],
         "tags": [
             ""
@@ -43290,7 +43368,7 @@
         "description": "emergency exit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "emergency_exit-extra"
+            "emergency_exit_extra"
         ],
         "tags": [
             ""
@@ -43303,7 +43381,7 @@
         "description": "stairway",
         "category": "Extras & Openmoji",
         "aliases": [
-            "stairway-extra"
+            "stairway_extra"
         ],
         "tags": [
             ""
@@ -43316,7 +43394,7 @@
         "description": "town",
         "category": "Extras & Openmoji",
         "aliases": [
-            "town-extra"
+            "town_extra"
         ],
         "tags": [
             ""
@@ -43329,7 +43407,7 @@
         "description": "elevator",
         "category": "Extras & Openmoji",
         "aliases": [
-            "elevator-extra"
+            "elevator_extra"
         ],
         "tags": [
             ""
@@ -43342,7 +43420,7 @@
         "description": "eiffel tower",
         "category": "Extras & Openmoji",
         "aliases": [
-            "eiffel_tower-extra"
+            "eiffel_tower_extra"
         ],
         "tags": [
             ""
@@ -43355,7 +43433,7 @@
         "description": "parking garage",
         "category": "Extras & Openmoji",
         "aliases": [
-            "parking_garage-extra"
+            "parking_garage_extra"
         ],
         "tags": [
             ""
@@ -43368,7 +43446,7 @@
         "description": "schwäbisch gmünd forum gold und silber",
         "category": "Extras & Openmoji",
         "aliases": [
-            "schwabisch_gmund_forum_gold_und_silber-extra"
+            "schwabisch_gmund_forum_gold_und_silber_extra"
         ],
         "tags": [
             ""
@@ -43381,7 +43459,7 @@
         "description": "schwäbisch gmünd fünfknopfturm",
         "category": "Extras & Openmoji",
         "aliases": [
-            "schwabisch_gmund_funfknopfturm-extra"
+            "schwabisch_gmund_funfknopfturm_extra"
         ],
         "tags": [
             ""
@@ -43394,7 +43472,7 @@
         "description": "schwäbisch gmünd ratshaus",
         "category": "Extras & Openmoji",
         "aliases": [
-            "schwabisch_gmund_ratshaus-extra"
+            "schwabisch_gmund_ratshaus_extra"
         ],
         "tags": [
             ""
@@ -43407,7 +43485,7 @@
         "description": "stuttgart fernsehturm",
         "category": "Extras & Openmoji",
         "aliases": [
-            "stuttgart_fernsehturm-extra"
+            "stuttgart_fernsehturm_extra"
         ],
         "tags": [
             ""
@@ -43420,7 +43498,7 @@
         "description": "space shuttle",
         "category": "Extras & Openmoji",
         "aliases": [
-            "space_shuttle-extra"
+            "space_shuttle_extra"
         ],
         "tags": [
             ""
@@ -43433,7 +43511,7 @@
         "description": "mark",
         "category": "Extras & Openmoji",
         "aliases": [
-            "mark-extra"
+            "mark_extra"
         ],
         "tags": [
             ""
@@ -43446,7 +43524,7 @@
         "description": "toggle button",
         "category": "Extras & Openmoji",
         "aliases": [
-            "toggle_button-extra"
+            "toggle_button_extra"
         ],
         "tags": [
             ""
@@ -43459,7 +43537,7 @@
         "description": "location indicator",
         "category": "Extras & Openmoji",
         "aliases": [
-            "location_indicator-extra"
+            "location_indicator_extra"
         ],
         "tags": [
             ""
@@ -43472,7 +43550,7 @@
         "description": "scale",
         "category": "Extras & Openmoji",
         "aliases": [
-            "scale-extra"
+            "scale_extra"
         ],
         "tags": [
             ""
@@ -43485,7 +43563,7 @@
         "description": "locomotion",
         "category": "Extras & Openmoji",
         "aliases": [
-            "locomotion-extra"
+            "locomotion_extra"
         ],
         "tags": [
             ""
@@ -43498,7 +43576,7 @@
         "description": "toggle button state B",
         "category": "Extras & Openmoji",
         "aliases": [
-            "toggle_button_state_b-extra"
+            "toggle_button_state_b_extra"
         ],
         "tags": [
             ""
@@ -43511,7 +43589,7 @@
         "description": "people dialogue",
         "category": "Extras & Openmoji",
         "aliases": [
-            "people_dialogue-extra"
+            "people_dialogue_extra"
         ],
         "tags": [
             ""
@@ -43524,7 +43602,7 @@
         "description": "safety",
         "category": "Extras & Openmoji",
         "aliases": [
-            "safety-extra"
+            "safety_extra"
         ],
         "tags": [
             ""
@@ -43537,7 +43615,7 @@
         "description": "chats",
         "category": "Extras & Openmoji",
         "aliases": [
-            "chats-extra"
+            "chats_extra"
         ],
         "tags": [
             ""
@@ -43550,7 +43628,7 @@
         "description": "collaboration",
         "category": "Extras & Openmoji",
         "aliases": [
-            "collaboration-extra"
+            "collaboration_extra"
         ],
         "tags": [
             ""
@@ -43563,7 +43641,7 @@
         "description": "interview",
         "category": "Extras & Openmoji",
         "aliases": [
-            "interview-extra"
+            "interview_extra"
         ],
         "tags": [
             ""
@@ -43576,7 +43654,7 @@
         "description": "intricate",
         "category": "Extras & Openmoji",
         "aliases": [
-            "intricate-extra"
+            "intricate_extra"
         ],
         "tags": [
             ""
@@ -43589,7 +43667,7 @@
         "description": "simple",
         "category": "Extras & Openmoji",
         "aliases": [
-            "simple-extra"
+            "simple_extra"
         ],
         "tags": [
             ""
@@ -43602,7 +43680,7 @@
         "description": "return, back button",
         "category": "Extras & Openmoji",
         "aliases": [
-            "return_back_button-extra"
+            "return_back_button_extra"
         ],
         "tags": [
             ""
@@ -43615,7 +43693,7 @@
         "description": "close",
         "category": "Extras & Openmoji",
         "aliases": [
-            "close-extra"
+            "close_extra"
         ],
         "tags": [
             ""
@@ -43628,7 +43706,7 @@
         "description": "forward",
         "category": "Extras & Openmoji",
         "aliases": [
-            "forward-extra"
+            "forward_extra"
         ],
         "tags": [
             ""
@@ -43641,7 +43719,7 @@
         "description": "hamburger menu",
         "category": "Extras & Openmoji",
         "aliases": [
-            "hamburger_menu-extra"
+            "hamburger_menu_extra"
         ],
         "tags": [
             ""
@@ -43654,7 +43732,7 @@
         "description": "upload",
         "category": "Extras & Openmoji",
         "aliases": [
-            "upload-extra"
+            "upload_extra"
         ],
         "tags": [
             ""
@@ -43667,7 +43745,7 @@
         "description": "download",
         "category": "Extras & Openmoji",
         "aliases": [
-            "download-extra"
+            "download_extra"
         ],
         "tags": [
             ""
@@ -43680,7 +43758,7 @@
         "description": "share",
         "category": "Extras & Openmoji",
         "aliases": [
-            "share-extra"
+            "share_extra"
         ],
         "tags": [
             ""
@@ -43693,7 +43771,7 @@
         "description": "wifi",
         "category": "Extras & Openmoji",
         "aliases": [
-            "wifi-extra"
+            "wifi_extra"
         ],
         "tags": [
             ""
@@ -43706,7 +43784,7 @@
         "description": "copy",
         "category": "Extras & Openmoji",
         "aliases": [
-            "copy-extra"
+            "copy_extra"
         ],
         "tags": [
             ""
@@ -43719,7 +43797,7 @@
         "description": "contacts",
         "category": "Extras & Openmoji",
         "aliases": [
-            "contacts-extra"
+            "contacts_extra"
         ],
         "tags": [
             ""
@@ -43732,7 +43810,7 @@
         "description": "filter",
         "category": "Extras & Openmoji",
         "aliases": [
-            "filter-extra"
+            "filter_extra"
         ],
         "tags": [
             ""
@@ -43745,7 +43823,7 @@
         "description": "cursor",
         "category": "Extras & Openmoji",
         "aliases": [
-            "cursor-extra"
+            "cursor_extra"
         ],
         "tags": [
             ""
@@ -43758,7 +43836,7 @@
         "description": "details",
         "category": "Extras & Openmoji",
         "aliases": [
-            "details-extra"
+            "details_extra"
         ],
         "tags": [
             ""
@@ -43771,7 +43849,7 @@
         "description": "hold",
         "category": "Extras & Openmoji",
         "aliases": [
-            "hold-extra"
+            "hold_extra"
         ],
         "tags": [
             ""
@@ -43784,7 +43862,7 @@
         "description": "duplicate",
         "category": "Extras & Openmoji",
         "aliases": [
-            "duplicate-extra"
+            "duplicate_extra"
         ],
         "tags": [
             ""
@@ -43797,7 +43875,7 @@
         "description": "save",
         "category": "Extras & Openmoji",
         "aliases": [
-            "save-extra"
+            "save_extra"
         ],
         "tags": [
             ""
@@ -43810,7 +43888,7 @@
         "description": "edit",
         "category": "Extras & Openmoji",
         "aliases": [
-            "edit-extra"
+            "edit_extra"
         ],
         "tags": [
             ""
@@ -43823,7 +43901,7 @@
         "description": "home button",
         "category": "Extras & Openmoji",
         "aliases": [
-            "home_button-extra"
+            "home_button_extra"
         ],
         "tags": [
             ""
@@ -43836,7 +43914,7 @@
         "description": "add button",
         "category": "Extras & Openmoji",
         "aliases": [
-            "add_button-extra"
+            "add_button_extra"
         ],
         "tags": [
             ""
@@ -43849,7 +43927,7 @@
         "description": "archive",
         "category": "Extras & Openmoji",
         "aliases": [
-            "archive-extra"
+            "archive_extra"
         ],
         "tags": [
             ""
@@ -43862,7 +43940,7 @@
         "description": "overview",
         "category": "Extras & Openmoji",
         "aliases": [
-            "overview-extra"
+            "overview_extra"
         ],
         "tags": [
             ""
@@ -43875,7 +43953,7 @@
         "description": "delete",
         "category": "Extras & Openmoji",
         "aliases": [
-            "delete-extra"
+            "delete_extra"
         ],
         "tags": [
             ""
@@ -43888,7 +43966,7 @@
         "description": "comment",
         "category": "Extras & Openmoji",
         "aliases": [
-            "comment-extra"
+            "comment_extra"
         ],
         "tags": [
             ""
@@ -43901,7 +43979,7 @@
         "description": "more information",
         "category": "Extras & Openmoji",
         "aliases": [
-            "more_information-extra"
+            "more_information_extra"
         ],
         "tags": [
             ""
@@ -43914,7 +43992,7 @@
         "description": "sort",
         "category": "Extras & Openmoji",
         "aliases": [
-            "sort-extra"
+            "sort_extra"
         ],
         "tags": [
             ""
@@ -43927,7 +44005,7 @@
         "description": "inbox",
         "category": "Extras & Openmoji",
         "aliases": [
-            "inbox-extra"
+            "inbox_extra"
         ],
         "tags": [
             ""
@@ -43940,7 +44018,7 @@
         "description": "compose",
         "category": "Extras & Openmoji",
         "aliases": [
-            "compose-extra"
+            "compose_extra"
         ],
         "tags": [
             ""
@@ -43953,7 +44031,7 @@
         "description": "add contact",
         "category": "Extras & Openmoji",
         "aliases": [
-            "add_contact-extra"
+            "add_contact_extra"
         ],
         "tags": [
             ""
@@ -43966,13 +44044,39 @@
         "description": "link",
         "category": "Extras & Openmoji",
         "aliases": [
-            "link-extra"
+            "link_extra"
         ],
         "tags": [
             ""
         ],
         "unicode_version": ".0",
         "ios_version": ".0"
+    },
+    {
+        "emoji": "🇪🇴",
+        "description": "esperanto flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "esperanto_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁵󠁳󠁴󠁸󠁿",
+        "description": "texas flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "texas_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
     },
     {
         "emoji": "🐱‍💻",

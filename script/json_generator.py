@@ -63,7 +63,7 @@ def create_alias(annotation, category):
     # handle openmoji extra emojis.
     if category == "Extras & Openmoji":
         alias = list(alias)
-        alias.append("-extra")
+        alias.append("_extra")
         alias = "".join(alias)
     # lowercase characters.
     alias = alias.lower()
