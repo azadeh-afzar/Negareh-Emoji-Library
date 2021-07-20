@@ -27,7 +27,7 @@ test master branch defaut:
     - cc-test-reporter before-build
   # run tests.
   script:
-    - script/test.sh
+    - cd script && ./test.sh
   # send test coverage result to codeclimate.
   after_script:
     - cc-test-reporter after-build --coverage-input-type simplecov
@@ -46,7 +46,7 @@ test master branch ruby 2.7.2:
     - bundle install
   # run tests.
   script:
-    - script/test.sh
+    - cd script && ./test.sh
   only:
     - master
 
@@ -64,7 +64,7 @@ test branch ruby default:
     - bundle install
   # run tests.
   script:
-    - script/test.sh
+    - cd script && ./test.sh
   only:
     - branches
     - merge_requests
@@ -83,7 +83,7 @@ test branch ruby 2.7.2:
     - bundle install
   # run tests.
   script:
-    - script/test.sh
+    - cd script && ./test.sh
   only:
     - branches
     - merge_requests
