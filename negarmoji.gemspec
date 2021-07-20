@@ -20,12 +20,12 @@ Gem::Specification.new do |spec|
   spec.test_files = spec.files.grep(%r{^test/})
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 2.3.0"
+  spec.required_ruby_version = ">= 2.7.2"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "minitest", "~> 5.13"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "rubocop", "~> 0.77"
-  spec.add_development_dependency "simplecov", "~> 0.17.0"
+  spec.add_development_dependency "bundler", "~> 2.2.3"
+  spec.add_development_dependency "minitest", "~> 5.14.4"
+  spec.add_development_dependency "rake", "~> 13.0.6"
+  spec.add_development_dependency "rspec", "~> 3.10"
+  spec.add_development_dependency "rubocop", "~> 1.18.3"
+  spec.add_development_dependency "simplecov", "~> 0.21.2"
 end
