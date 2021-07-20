@@ -765,7 +765,8 @@
         "description": "dizzy face",
         "category": "Smileys & Emotion",
         "aliases": [
-            "dizzy_face"
+            "dizzy_face",
+            "knocked_out_face"
         ],
         "tags": [],
         "unicode_version": "6.0",
@@ -2795,7 +2796,7 @@
         "category": "People & Body",
         "aliases": [
             "bearded_person",
-            "man_beard"
+            "person_beard"
         ],
         "tags": [],
         "unicode_version": "11.0",
@@ -12904,7 +12905,7 @@
         "category": "Activities",
         "aliases": [
             "dart",
-            "direct_hit"
+            "bullseye"
         ],
         "tags": [
             "target"
@@ -13063,7 +13064,6 @@
         "description": "piñata",
         "category": "Activities",
         "aliases": [
-            "pi_ata",
             "pinata"
         ],
         "tags": [],
@@ -14913,11 +14913,11 @@
         "description": "envelope",
         "category": "Objects",
         "aliases": [
-            "email",
             "envelope"
         ],
         "tags": [
-            "letter"
+            "letter",
+            "email"
         ],
         "unicode_version": "",
         "ios_version": "6.0"
@@ -14927,6 +14927,7 @@
         "description": "e-mail",
         "category": "Objects",
         "aliases": [
+            "email",
             "e-mail",
             "e_mail"
         ],
@@ -15592,7 +15593,7 @@
         "category": "Objects",
         "aliases": [
             "gun",
-            "pistol"
+            "water_pistol"
         ],
         "tags": [
             "shoot",
@@ -17540,7 +17541,7 @@
         "category": "Symbols",
         "aliases": [
             "question",
-            "question_mark"
+            "red_question_mark"
         ],
         "tags": [
             "confused"
@@ -17579,7 +17580,7 @@
         "aliases": [
             "exclamation",
             "heavy_exclamation_mark",
-            "exclamation_mark"
+            "red_exclamation_mark"
         ],
         "tags": [
             "bang"
@@ -22148,6 +22149,71 @@
         "ios_version": "12.1"
     },
     {
+        "emoji": "😶‍🌫️",
+        "description": "face in clouds",
+        "category": "Smileys & Emotion",
+        "aliases": [
+            "face_in_clouds"
+        ],
+        "tags": [
+            "absentminded, face in the fog, head in clouds"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "😮‍💨",
+        "description": "face exhaling",
+        "category": "Smileys & Emotion",
+        "aliases": [
+            "face_exhaling"
+        ],
+        "tags": [
+            "exhale, gasp, groan, relief, whisper, whistle"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "😵‍💫",
+        "description": "face with spiral eyes",
+        "category": "Smileys & Emotion",
+        "aliases": [
+            "face_with_spiral_eyes"
+        ],
+        "tags": [
+            "dizzy, hypnotized, spiral, trouble, whoa"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "❤️‍🔥",
+        "description": "heart on fire",
+        "category": "Smileys & Emotion",
+        "aliases": [
+            "heart_on_fire"
+        ],
+        "tags": [
+            "burn, heart, love, lust, sacred heart"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "❤️‍🩹",
+        "description": "mending heart",
+        "category": "Smileys & Emotion",
+        "aliases": [
+            "mending_heart"
+        ],
+        "tags": [
+            "healthier, improving, mending, recovering, recuperating, well"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
         "emoji": "👋🏻",
         "description": "waving hand: light skin tone",
         "category": "People & Body",
@@ -22536,6 +22602,71 @@
         ],
         "unicode_version": "1.0",
         "ios_version": "1.0"
+    },
+    {
+        "emoji": "🤌🏻",
+        "description": "pinched fingers: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "pinched_fingers_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤌🏼",
+        "description": "pinched fingers: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "pinched_fingers_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤌🏽",
+        "description": "pinched fingers: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "pinched_fingers_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤌🏾",
+        "description": "pinched fingers: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "pinched_fingers_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤌🏿",
+        "description": "pinched fingers: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "pinched_fingers_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
     },
     {
         "emoji": "🤏🏻",
@@ -25074,10 +25205,10 @@
     },
     {
         "emoji": "🧔🏻",
-        "description": "man: light skin tone, beard",
+        "description": "person: light skin tone, beard",
         "category": "People & Body",
         "aliases": [
-            "man_light_skin_tone_beard"
+            "person_light_skin_tone_beard"
         ],
         "tags": [
             ""
@@ -25087,10 +25218,10 @@
     },
     {
         "emoji": "🧔🏼",
-        "description": "man: medium-light skin tone, beard",
+        "description": "person: medium-light skin tone, beard",
         "category": "People & Body",
         "aliases": [
-            "man_medium_light_skin_tone_beard"
+            "person_medium_light_skin_tone_beard"
         ],
         "tags": [
             ""
@@ -25100,10 +25231,10 @@
     },
     {
         "emoji": "🧔🏽",
-        "description": "man: medium skin tone, beard",
+        "description": "person: medium skin tone, beard",
         "category": "People & Body",
         "aliases": [
-            "man_medium_skin_tone_beard"
+            "person_medium_skin_tone_beard"
         ],
         "tags": [
             ""
@@ -25113,10 +25244,10 @@
     },
     {
         "emoji": "🧔🏾",
-        "description": "man: medium-dark skin tone, beard",
+        "description": "person: medium-dark skin tone, beard",
         "category": "People & Body",
         "aliases": [
-            "man_medium_dark_skin_tone_beard"
+            "person_medium_dark_skin_tone_beard"
         ],
         "tags": [
             ""
@@ -25126,6 +25257,84 @@
     },
     {
         "emoji": "🧔🏿",
+        "description": "person: dark skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "person_dark_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "🧔‍♂️",
+        "description": "man: beard",
+        "category": "People & Body",
+        "aliases": [
+            "man_beard"
+        ],
+        "tags": [
+            "beard, man"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏻‍♂️",
+        "description": "man: light skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "man_light_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏼‍♂️",
+        "description": "man: medium-light skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "man_medium_light_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏽‍♂️",
+        "description": "man: medium skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "man_medium_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏾‍♂️",
+        "description": "man: medium-dark skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "man_medium_dark_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏿‍♂️",
         "description": "man: dark skin tone, beard",
         "category": "People & Body",
         "aliases": [
@@ -25134,8 +25343,86 @@
         "tags": [
             ""
         ],
-        "unicode_version": "5.0",
-        "ios_version": "5.0"
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔‍♀️",
+        "description": "woman: beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_beard"
+        ],
+        "tags": [
+            "beard, woman"
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏻‍♀️",
+        "description": "woman: light skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_light_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏼‍♀️",
+        "description": "woman: medium-light skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_medium_light_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏽‍♀️",
+        "description": "woman: medium skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_medium_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏾‍♀️",
+        "description": "woman: medium-dark skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_medium_dark_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧔🏿‍♀️",
+        "description": "woman: dark skin tone, beard",
+        "category": "People & Body",
+        "aliases": [
+            "woman_dark_skin_tone_beard"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
     },
     {
         "emoji": "👨🏻‍🦰",
@@ -31963,6 +32250,71 @@
         "ios_version": "4.0"
     },
     {
+        "emoji": "🥷🏻",
+        "description": "ninja: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "ninja_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🥷🏼",
+        "description": "ninja: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "ninja_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🥷🏽",
+        "description": "ninja: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "ninja_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🥷🏾",
+        "description": "ninja: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "ninja_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🥷🏿",
+        "description": "ninja: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "ninja_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
         "emoji": "👷🏻",
         "description": "construction worker: light skin tone",
         "category": "People & Body",
@@ -32678,6 +33030,136 @@
         "ios_version": "3.0"
     },
     {
+        "emoji": "🤵🏻‍♂️",
+        "description": "man in tuxedo: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_in_tuxedo_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏼‍♂️",
+        "description": "man in tuxedo: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_in_tuxedo_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏽‍♂️",
+        "description": "man in tuxedo: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_in_tuxedo_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏾‍♂️",
+        "description": "man in tuxedo: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_in_tuxedo_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏿‍♂️",
+        "description": "man in tuxedo: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_in_tuxedo_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏻‍♀️",
+        "description": "woman in tuxedo: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_in_tuxedo_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏼‍♀️",
+        "description": "woman in tuxedo: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_in_tuxedo_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏽‍♀️",
+        "description": "woman in tuxedo: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_in_tuxedo_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏾‍♀️",
+        "description": "woman in tuxedo: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_in_tuxedo_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🤵🏿‍♀️",
+        "description": "woman in tuxedo: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_in_tuxedo_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
         "emoji": "👰🏻",
         "description": "person with veil: light skin tone",
         "category": "People & Body",
@@ -32741,6 +33223,136 @@
         ],
         "unicode_version": "1.0",
         "ios_version": "1.0"
+    },
+    {
+        "emoji": "👰🏻‍♂️",
+        "description": "man with veil: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_with_veil_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏼‍♂️",
+        "description": "man with veil: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_with_veil_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏽‍♂️",
+        "description": "man with veil: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_with_veil_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏾‍♂️",
+        "description": "man with veil: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_with_veil_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏿‍♂️",
+        "description": "man with veil: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_with_veil_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏻‍♀️",
+        "description": "woman with veil: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_with_veil_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏼‍♀️",
+        "description": "woman with veil: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_with_veil_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏽‍♀️",
+        "description": "woman with veil: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_with_veil_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏾‍♀️",
+        "description": "woman with veil: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_with_veil_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👰🏿‍♀️",
+        "description": "woman with veil: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_with_veil_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
     },
     {
         "emoji": "🤰🏻",
@@ -32871,6 +33483,201 @@
         ],
         "unicode_version": "5.0",
         "ios_version": "5.0"
+    },
+    {
+        "emoji": "👩🏻‍🍼",
+        "description": "woman feeding baby: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_feeding_baby_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👩🏼‍🍼",
+        "description": "woman feeding baby: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_feeding_baby_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👩🏽‍🍼",
+        "description": "woman feeding baby: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_feeding_baby_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👩🏾‍🍼",
+        "description": "woman feeding baby: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_feeding_baby_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👩🏿‍🍼",
+        "description": "woman feeding baby: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "woman_feeding_baby_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👨🏻‍🍼",
+        "description": "man feeding baby: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_feeding_baby_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👨🏼‍🍼",
+        "description": "man feeding baby: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_feeding_baby_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👨🏽‍🍼",
+        "description": "man feeding baby: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_feeding_baby_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👨🏾‍🍼",
+        "description": "man feeding baby: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_feeding_baby_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "👨🏿‍🍼",
+        "description": "man feeding baby: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "man_feeding_baby_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏻‍🍼",
+        "description": "person feeding baby: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "person_feeding_baby_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏼‍🍼",
+        "description": "person feeding baby: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "person_feeding_baby_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏽‍🍼",
+        "description": "person feeding baby: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "person_feeding_baby_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏾‍🍼",
+        "description": "person feeding baby: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "person_feeding_baby_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏿‍🍼",
+        "description": "person feeding baby: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "person_feeding_baby_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
     },
     {
         "emoji": "👼🏻",
@@ -33066,6 +33873,71 @@
         ],
         "unicode_version": "3.0",
         "ios_version": "3.0"
+    },
+    {
+        "emoji": "🧑🏻‍🎄",
+        "description": "mx claus: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "mx_claus_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏼‍🎄",
+        "description": "mx claus: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "mx_claus_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏽‍🎄",
+        "description": "mx claus: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "mx_claus_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏾‍🎄",
+        "description": "mx claus: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "mx_claus_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🧑🏿‍🎄",
+        "description": "mx claus: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "mx_claus_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
     },
     {
         "emoji": "🦸🏻",
@@ -40868,6 +41740,2606 @@
         "ios_version": "12.0"
     },
     {
+        "emoji": "💏🏻",
+        "description": "kiss: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💏🏼",
+        "description": "kiss: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💏🏽",
+        "description": "kiss: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💏🏾",
+        "description": "kiss: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💏🏿",
+        "description": "kiss: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍💋‍🧑🏼",
+        "description": "kiss: person, person, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍💋‍🧑🏽",
+        "description": "kiss: person, person, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍💋‍🧑🏾",
+        "description": "kiss: person, person, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍💋‍🧑🏿",
+        "description": "kiss: person, person, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍💋‍🧑🏻",
+        "description": "kiss: person, person, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍💋‍🧑🏽",
+        "description": "kiss: person, person, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍💋‍🧑🏾",
+        "description": "kiss: person, person, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍💋‍🧑🏿",
+        "description": "kiss: person, person, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍💋‍🧑🏻",
+        "description": "kiss: person, person, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍💋‍🧑🏼",
+        "description": "kiss: person, person, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍💋‍🧑🏾",
+        "description": "kiss: person, person, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍💋‍🧑🏿",
+        "description": "kiss: person, person, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍💋‍🧑🏻",
+        "description": "kiss: person, person, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍💋‍🧑🏼",
+        "description": "kiss: person, person, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍💋‍🧑🏽",
+        "description": "kiss: person, person, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍💋‍🧑🏿",
+        "description": "kiss: person, person, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍💋‍🧑🏻",
+        "description": "kiss: person, person, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍💋‍🧑🏼",
+        "description": "kiss: person, person, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍💋‍🧑🏽",
+        "description": "kiss: person, person, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍💋‍🧑🏾",
+        "description": "kiss: person, person, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_person_person_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👨🏻",
+        "description": "kiss: woman, man, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👨🏼",
+        "description": "kiss: woman, man, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👨🏽",
+        "description": "kiss: woman, man, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👨🏾",
+        "description": "kiss: woman, man, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👨🏿",
+        "description": "kiss: woman, man, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👨🏻",
+        "description": "kiss: woman, man, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👨🏼",
+        "description": "kiss: woman, man, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👨🏽",
+        "description": "kiss: woman, man, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👨🏾",
+        "description": "kiss: woman, man, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👨🏿",
+        "description": "kiss: woman, man, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👨🏻",
+        "description": "kiss: woman, man, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👨🏼",
+        "description": "kiss: woman, man, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👨🏽",
+        "description": "kiss: woman, man, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👨🏾",
+        "description": "kiss: woman, man, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👨🏿",
+        "description": "kiss: woman, man, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👨🏻",
+        "description": "kiss: woman, man, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👨🏼",
+        "description": "kiss: woman, man, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👨🏽",
+        "description": "kiss: woman, man, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👨🏾",
+        "description": "kiss: woman, man, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👨🏿",
+        "description": "kiss: woman, man, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👨🏻",
+        "description": "kiss: woman, man, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👨🏼",
+        "description": "kiss: woman, man, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👨🏽",
+        "description": "kiss: woman, man, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👨🏾",
+        "description": "kiss: woman, man, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👨🏿",
+        "description": "kiss: woman, man, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_man_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍💋‍👨🏻",
+        "description": "kiss: man, man, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍💋‍👨🏼",
+        "description": "kiss: man, man, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍💋‍👨🏽",
+        "description": "kiss: man, man, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍💋‍👨🏾",
+        "description": "kiss: man, man, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍💋‍👨🏿",
+        "description": "kiss: man, man, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍💋‍👨🏻",
+        "description": "kiss: man, man, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍💋‍👨🏼",
+        "description": "kiss: man, man, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍💋‍👨🏽",
+        "description": "kiss: man, man, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍💋‍👨🏾",
+        "description": "kiss: man, man, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍💋‍👨🏿",
+        "description": "kiss: man, man, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍💋‍👨🏻",
+        "description": "kiss: man, man, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍💋‍👨🏼",
+        "description": "kiss: man, man, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍💋‍👨🏽",
+        "description": "kiss: man, man, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍💋‍👨🏾",
+        "description": "kiss: man, man, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍💋‍👨🏿",
+        "description": "kiss: man, man, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍💋‍👨🏻",
+        "description": "kiss: man, man, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍💋‍👨🏼",
+        "description": "kiss: man, man, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍💋‍👨🏽",
+        "description": "kiss: man, man, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍💋‍👨🏾",
+        "description": "kiss: man, man, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍💋‍👨🏿",
+        "description": "kiss: man, man, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍💋‍👨🏻",
+        "description": "kiss: man, man, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍💋‍👨🏼",
+        "description": "kiss: man, man, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍💋‍👨🏽",
+        "description": "kiss: man, man, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍💋‍👨🏾",
+        "description": "kiss: man, man, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍💋‍👨🏿",
+        "description": "kiss: man, man, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_man_man_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👩🏻",
+        "description": "kiss: woman, woman, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👩🏼",
+        "description": "kiss: woman, woman, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👩🏽",
+        "description": "kiss: woman, woman, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👩🏾",
+        "description": "kiss: woman, woman, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍💋‍👩🏿",
+        "description": "kiss: woman, woman, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👩🏻",
+        "description": "kiss: woman, woman, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👩🏼",
+        "description": "kiss: woman, woman, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👩🏽",
+        "description": "kiss: woman, woman, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👩🏾",
+        "description": "kiss: woman, woman, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍💋‍👩🏿",
+        "description": "kiss: woman, woman, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👩🏻",
+        "description": "kiss: woman, woman, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👩🏼",
+        "description": "kiss: woman, woman, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👩🏽",
+        "description": "kiss: woman, woman, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👩🏾",
+        "description": "kiss: woman, woman, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍💋‍👩🏿",
+        "description": "kiss: woman, woman, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👩🏻",
+        "description": "kiss: woman, woman, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👩🏼",
+        "description": "kiss: woman, woman, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👩🏽",
+        "description": "kiss: woman, woman, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👩🏾",
+        "description": "kiss: woman, woman, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍💋‍👩🏿",
+        "description": "kiss: woman, woman, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👩🏻",
+        "description": "kiss: woman, woman, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👩🏼",
+        "description": "kiss: woman, woman, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👩🏽",
+        "description": "kiss: woman, woman, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👩🏾",
+        "description": "kiss: woman, woman, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍💋‍👩🏿",
+        "description": "kiss: woman, woman, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "kiss_woman_woman_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💑🏻",
+        "description": "couple with heart: light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💑🏼",
+        "description": "couple with heart: medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💑🏽",
+        "description": "couple with heart: medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💑🏾",
+        "description": "couple with heart: medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "💑🏿",
+        "description": "couple with heart: dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍🧑🏼",
+        "description": "couple with heart: person, person, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍🧑🏽",
+        "description": "couple with heart: person, person, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍🧑🏾",
+        "description": "couple with heart: person, person, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏻‍❤️‍🧑🏿",
+        "description": "couple with heart: person, person, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍🧑🏻",
+        "description": "couple with heart: person, person, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍🧑🏽",
+        "description": "couple with heart: person, person, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍🧑🏾",
+        "description": "couple with heart: person, person, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏼‍❤️‍🧑🏿",
+        "description": "couple with heart: person, person, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍🧑🏻",
+        "description": "couple with heart: person, person, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍🧑🏼",
+        "description": "couple with heart: person, person, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍🧑🏾",
+        "description": "couple with heart: person, person, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏽‍❤️‍🧑🏿",
+        "description": "couple with heart: person, person, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍🧑🏻",
+        "description": "couple with heart: person, person, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍🧑🏼",
+        "description": "couple with heart: person, person, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍🧑🏽",
+        "description": "couple with heart: person, person, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏾‍❤️‍🧑🏿",
+        "description": "couple with heart: person, person, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍🧑🏻",
+        "description": "couple with heart: person, person, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍🧑🏼",
+        "description": "couple with heart: person, person, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍🧑🏽",
+        "description": "couple with heart: person, person, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "🧑🏿‍❤️‍🧑🏾",
+        "description": "couple with heart: person, person, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_person_person_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👨🏻",
+        "description": "couple with heart: woman, man, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👨🏼",
+        "description": "couple with heart: woman, man, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👨🏽",
+        "description": "couple with heart: woman, man, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👨🏾",
+        "description": "couple with heart: woman, man, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👨🏿",
+        "description": "couple with heart: woman, man, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👨🏻",
+        "description": "couple with heart: woman, man, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👨🏼",
+        "description": "couple with heart: woman, man, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👨🏽",
+        "description": "couple with heart: woman, man, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👨🏾",
+        "description": "couple with heart: woman, man, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👨🏿",
+        "description": "couple with heart: woman, man, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👨🏻",
+        "description": "couple with heart: woman, man, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👨🏼",
+        "description": "couple with heart: woman, man, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👨🏽",
+        "description": "couple with heart: woman, man, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👨🏾",
+        "description": "couple with heart: woman, man, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👨🏿",
+        "description": "couple with heart: woman, man, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👨🏻",
+        "description": "couple with heart: woman, man, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👨🏼",
+        "description": "couple with heart: woman, man, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👨🏽",
+        "description": "couple with heart: woman, man, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👨🏾",
+        "description": "couple with heart: woman, man, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👨🏿",
+        "description": "couple with heart: woman, man, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👨🏻",
+        "description": "couple with heart: woman, man, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👨🏼",
+        "description": "couple with heart: woman, man, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👨🏽",
+        "description": "couple with heart: woman, man, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👨🏾",
+        "description": "couple with heart: woman, man, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👨🏿",
+        "description": "couple with heart: woman, man, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_man_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍👨🏻",
+        "description": "couple with heart: man, man, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍👨🏼",
+        "description": "couple with heart: man, man, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍👨🏽",
+        "description": "couple with heart: man, man, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍👨🏾",
+        "description": "couple with heart: man, man, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏻‍❤️‍👨🏿",
+        "description": "couple with heart: man, man, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍👨🏻",
+        "description": "couple with heart: man, man, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍👨🏼",
+        "description": "couple with heart: man, man, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍👨🏽",
+        "description": "couple with heart: man, man, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍👨🏾",
+        "description": "couple with heart: man, man, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏼‍❤️‍👨🏿",
+        "description": "couple with heart: man, man, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍👨🏻",
+        "description": "couple with heart: man, man, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍👨🏼",
+        "description": "couple with heart: man, man, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍👨🏽",
+        "description": "couple with heart: man, man, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍👨🏾",
+        "description": "couple with heart: man, man, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏽‍❤️‍👨🏿",
+        "description": "couple with heart: man, man, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍👨🏻",
+        "description": "couple with heart: man, man, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍👨🏼",
+        "description": "couple with heart: man, man, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍👨🏽",
+        "description": "couple with heart: man, man, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍👨🏾",
+        "description": "couple with heart: man, man, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏾‍❤️‍👨🏿",
+        "description": "couple with heart: man, man, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍👨🏻",
+        "description": "couple with heart: man, man, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍👨🏼",
+        "description": "couple with heart: man, man, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍👨🏽",
+        "description": "couple with heart: man, man, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍👨🏾",
+        "description": "couple with heart: man, man, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👨🏿‍❤️‍👨🏿",
+        "description": "couple with heart: man, man, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_man_man_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👩🏻",
+        "description": "couple with heart: woman, woman, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👩🏼",
+        "description": "couple with heart: woman, woman, light skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_light_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👩🏽",
+        "description": "couple with heart: woman, woman, light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👩🏾",
+        "description": "couple with heart: woman, woman, light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏻‍❤️‍👩🏿",
+        "description": "couple with heart: woman, woman, light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👩🏻",
+        "description": "couple with heart: woman, woman, medium-light skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_light_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👩🏼",
+        "description": "couple with heart: woman, woman, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👩🏽",
+        "description": "couple with heart: woman, woman, medium-light skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_light_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👩🏾",
+        "description": "couple with heart: woman, woman, medium-light skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_light_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏼‍❤️‍👩🏿",
+        "description": "couple with heart: woman, woman, medium-light skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_light_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👩🏻",
+        "description": "couple with heart: woman, woman, medium skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👩🏼",
+        "description": "couple with heart: woman, woman, medium skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👩🏽",
+        "description": "couple with heart: woman, woman, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👩🏾",
+        "description": "couple with heart: woman, woman, medium skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏽‍❤️‍👩🏿",
+        "description": "couple with heart: woman, woman, medium skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👩🏻",
+        "description": "couple with heart: woman, woman, medium-dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👩🏼",
+        "description": "couple with heart: woman, woman, medium-dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👩🏽",
+        "description": "couple with heart: woman, woman, medium-dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👩🏾",
+        "description": "couple with heart: woman, woman, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏾‍❤️‍👩🏿",
+        "description": "couple with heart: woman, woman, medium-dark skin tone, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_medium_dark_skin_tone_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👩🏻",
+        "description": "couple with heart: woman, woman, dark skin tone, light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_dark_skin_tone_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👩🏼",
+        "description": "couple with heart: woman, woman, dark skin tone, medium-light skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_dark_skin_tone_medium_light_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👩🏽",
+        "description": "couple with heart: woman, woman, dark skin tone, medium skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_dark_skin_tone_medium_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👩🏾",
+        "description": "couple with heart: woman, woman, dark skin tone, medium-dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_dark_skin_tone_medium_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
+        "emoji": "👩🏿‍❤️‍👩🏿",
+        "description": "couple with heart: woman, woman, dark skin tone",
+        "category": "People & Body",
+        "aliases": [
+            "couple_with_heart_woman_woman_dark_skin_tone"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.1.0",
+        "ios_version": "13.1.0"
+    },
+    {
         "emoji": "🏻",
         "description": "light skin tone",
         "category": "Component",
@@ -41102,6 +44574,45 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "pigeon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "pigeon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "macaw",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "macaw_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "microbe",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "microbe_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "Twitter",
         "category": "Extras & Openmoji",
@@ -41172,6 +44683,240 @@
         "category": "Extras & Openmoji",
         "aliases": [
             "github_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "linkedin",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "linkedin_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "android",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "android_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "musicbrainz",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "musicbrainz_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "openfoodfact",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "openfoodfact_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "openstreetmap",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "openstreetmap_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "wikidata",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "wikidata_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Firefox",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "firefox_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Safari",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "safari_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Opera",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "opera_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Chromium",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "chromium_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Chrome",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "chrome_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Netscape Navigator",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "netscape_navigator_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Internet Explorer",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "internet_explorer_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Edge",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "edge_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "iNaturalist",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "inaturalist_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "ubuntu",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "ubuntu_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "windows",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "windows_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "apple",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "apple_extra"
         ],
         "tags": [
             ""
@@ -42090,6 +45835,422 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "person with medical mask",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "person_with_medical_mask_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "‍♀️",
+        "description": "woman with medical mask",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "woman_with_medical_mask_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "‍♂️",
+        "description": "man with medical mask",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "man_with_medical_mask_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "person sneezing into elbow",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "person_sneezing_into_elbow_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "‍♀️",
+        "description": "woman sneezing into elbow",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "woman_sneezing_into_elbow_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "‍♂️",
+        "description": "man sneezing into elbow",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "man_sneezing_into_elbow_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "disinfect surface",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "disinfect_surface_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "quarantine",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "quarantine_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "social distancing",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "social_distancing_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "sanitizer spray",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "sanitizer_spray_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "wash hands",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "wash_hands_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "temperature taking",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "temperature_taking_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "medical gloves",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "medical_gloves_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍📌‍⚙️",
+        "description": "nail and gear flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "nail_and_gear_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟥",
+        "description": "red flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "red_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟦",
+        "description": "blue flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "blue_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟦‍🌌",
+        "description": "united federation of planets flag (star trek)",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "united_federation_of_planets_flag_star_trek_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟧",
+        "description": "orange flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "orange_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟨",
+        "description": "yellow flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "yellow_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟩",
+        "description": "green flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "green_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟩‍⭐‍🟩",
+        "description": "esperanto flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "esperanto_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟪",
+        "description": "purple flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "purple_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏳️‍🟫",
+        "description": "brown flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "brown_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🏴️‍🅰️",
+        "description": "red and black flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "red_and_black_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟥",
+        "description": "deep red flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_red_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟦",
+        "description": "deep blue flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_blue_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟧",
+        "description": "deep orange flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_orange_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟨",
+        "description": "deep yellow flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_yellow_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟩",
+        "description": "deep green flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_green_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟩‍★️",
+        "description": "browncoat flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "browncoat_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟪",
+        "description": "deep purple flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_purple_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⚑️‍🟫",
+        "description": "deep brown flag",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "deep_brown_flag_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "half orange fruit",
         "category": "Extras & Openmoji",
@@ -42155,6 +46316,201 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "latte macchiato",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "latte_macchiato_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "roasted coffee bean",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "roasted_coffee_bean_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "cake",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "cake_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "champignon brown",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "champignon_brown_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "champignon white",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "champignon_white_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "boule bread",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "boule_bread_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "gardener man",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "gardener_man_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "gardener woman",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "gardener_woman_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "gardening gloves",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "gardening_gloves_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "lawn mower",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "lawn_mower_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "wheelbarrow",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "wheelbarrow_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "spade",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "spade_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "trowel",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "trowel_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "axe",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "axe_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "saw",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "saw_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "female doctor",
         "category": "Extras & Openmoji",
@@ -42199,19 +46555,6 @@
         "category": "Extras & Openmoji",
         "aliases": [
             "male_nurse_extra"
-        ],
-        "tags": [
-            ""
-        ],
-        "unicode_version": ".0",
-        "ios_version": ".0"
-    },
-    {
-        "emoji": "",
-        "description": "shot",
-        "category": "Extras & Openmoji",
-        "aliases": [
-            "shot_extra"
         ],
         "tags": [
             ""
@@ -42948,6 +47291,123 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "tardis",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "tardis_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "espresso machine",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "espresso_machine_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "french press",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "french_press_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "moka pot",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "moka_pot_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "milk jug",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "milk_jug_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "electric coffee percolator",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "electric_coffee_percolator_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "drip coffee maker",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "drip_coffee_maker_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "coffee grinder",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "coffee_grinder_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "horse jumping hurdle",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "horse_jumping_hurdle_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "drunk person",
         "category": "Extras & Openmoji",
@@ -43000,6 +47460,58 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "barista",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "barista_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "man barista",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "man_barista_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "woman barista",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "woman_barista_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "Greta Thunberg",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "greta_thunberg_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "exhausted face",
         "category": "Extras & Openmoji",
@@ -43026,11 +47538,193 @@
         "ios_version": ".0"
     },
     {
+        "emoji": "",
+        "description": "dejected face",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "dejected_face_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "annoyed face with tongue",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "annoyed_face_with_tongue_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🯆‍👗",
+        "description": "stick figure with dress and arms raised",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "stick_figure_with_dress_and_arms_raised_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🯇‍👗",
+        "description": "stick figure with dress leaning left",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "stick_figure_with_dress_leaning_left_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "🯈‍👗",
+        "description": "stick figure with dress leaning right",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "stick_figure_with_dress_leaning_right_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🌈",
+        "description": "rainbow hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "rainbow_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟥",
+        "description": "red hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "red_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟦",
+        "description": "blue hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "blue_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟧",
+        "description": "orange hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "orange_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟨",
+        "description": "yellow hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "yellow_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟩",
+        "description": "green hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "green_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟪",
+        "description": "purple hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "purple_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "⬡️‍🟫",
+        "description": "brown hexagon",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "brown_hexagon_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
         "emoji": "",
         "description": "no handshaking",
         "category": "Extras & Openmoji",
         "aliases": [
             "no_handshaking_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "web syndication",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "web_syndication_extra"
         ],
         "tags": [
             ""
@@ -43096,19 +47790,6 @@
         "category": "Extras & Openmoji",
         "aliases": [
             "surveillance_extra"
-        ],
-        "tags": [
-            ""
-        ],
-        "unicode_version": ".0",
-        "ios_version": ".0"
-    },
-    {
-        "emoji": "",
-        "description": "mouse",
-        "category": "Extras & Openmoji",
-        "aliases": [
-            "mouse_extra"
         ],
         "tags": [
             ""
@@ -43499,6 +48180,45 @@
         "category": "Extras & Openmoji",
         "aliases": [
             "space_shuttle_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "viennese coffee house",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "viennese_coffee_house_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "black hole",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "black_hole_extra"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": ".0",
+        "ios_version": ".0"
+    },
+    {
+        "emoji": "",
+        "description": "foggy mountain",
+        "category": "Extras & Openmoji",
+        "aliases": [
+            "foggy_mountain_extra"
         ],
         "tags": [
             ""
@@ -44053,11 +48773,102 @@
         "ios_version": ".0"
     },
     {
-        "emoji": "🇪🇴",
-        "description": "esperanto flag",
+        "emoji": "🏴󠁣󠁡󠁱󠁣󠁿",
+        "description": "quebec flag",
         "category": "Extras & Unicode",
         "aliases": [
-            "esperanto_flag"
+            "quebec_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁤󠁥󠁢󠁥󠁿",
+        "description": "berlin flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "berlin_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁤󠁥󠁢󠁹󠁿",
+        "description": "bavaria flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "bavaria_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁥󠁳󠁡󠁳󠁿",
+        "description": "asturian flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "asturian_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁥󠁳󠁣󠁴󠁿",
+        "description": "catalonia flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "catalonia_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁥󠁳󠁰󠁶󠁿",
+        "description": "basque flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "basque_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁦󠁲󠁢󠁲󠁥󠁿",
+        "description": "bretagne flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "bretagne_flag"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "?.0",
+        "ios_version": "?.0"
+    },
+    {
+        "emoji": "🏴󠁵󠁳󠁣󠁡󠁿",
+        "description": "california flag",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "california_flag"
         ],
         "tags": [
             ""
@@ -44079,6 +48890,97 @@
         "ios_version": "?.0"
     },
     {
+        "emoji": "🄍",
+        "description": "circled zero with slash",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_zero_with_slash"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🄎",
+        "description": "circled anticlockwise arrow",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_anticlockwise_arrow"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🄏",
+        "description": "circled dollar sign with overlaid backslash",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_dollar_sign_with_overlaid_backslash"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🄯",
+        "description": "copyleft symbol",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "copyleft_symbol"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "11.0",
+        "ios_version": "11.0"
+    },
+    {
+        "emoji": "🅭",
+        "description": "circled cc",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_cc"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🅮",
+        "description": "circled c with overlaid backslash",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_c_with_overlaid_backslash"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🅯",
+        "description": "circled human figure",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_human_figure"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
         "emoji": "🐱‍💻",
         "description": "hacker cat",
         "category": "Extras & Unicode",
@@ -44092,11 +48994,310 @@
         "ios_version": "?.0"
     },
     {
+        "emoji": "🯅",
+        "description": "stick figure",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "stick_figure"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🯆",
+        "description": "stick figure with arms raised",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "stick_figure_with_arms_raised"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🯇",
+        "description": "stick figure leaning left",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "stick_figure_leaning_left"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🯈",
+        "description": "stick figure leaning right",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "stick_figure_leaning_right"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "🯉",
+        "description": "stick figure with dress",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "stick_figure_with_dress"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "13.0",
+        "ios_version": "13.0"
+    },
+    {
+        "emoji": "℗",
+        "description": "sound recording copyright",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "sound_recording_copyright"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "℠",
+        "description": "service mark",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "service_mark"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⊜",
+        "description": "circled equals",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circled_equals"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⏻",
+        "description": "power symbol",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "power_symbol"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⏼",
+        "description": "power on-off symbol",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "power_on_off_symbol"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⏽",
+        "description": "power on symbol",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "power_on_symbol"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⏾",
+        "description": "power sleep symbol",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "power_sleep_symbol"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
         "emoji": "□",
         "description": "white square",
         "category": "Extras & Unicode",
         "aliases": [
             "white_square"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.0",
+        "ios_version": "1.0"
+    },
+    {
+        "emoji": "▬",
+        "description": "black rectangle",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_rectangle"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "▭",
+        "description": "white rectangle",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "white_rectangle"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◐",
+        "description": "circle with left half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circle_with_left_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◑",
+        "description": "circle with right half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "circle_with_right_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◧",
+        "description": "square with left half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "square_with_left_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◨",
+        "description": "square with right half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "square_with_right_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◩",
+        "description": "square with upper left diagonal black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "square_with_upper_left_diagonal_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◪",
+        "description": "square with lower right diagonal black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "square_with_lower_right_diagonal_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◭",
+        "description": "up-pointing triangle with left half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "up_pointing_triangle_with_left_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "◮",
+        "description": "up-pointing triangle with right half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "up_pointing_triangle_with_right_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "★",
+        "description": "black star",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_star"
         ],
         "tags": [
             ""
@@ -44131,6 +49332,123 @@
         "ios_version": "4.0"
     },
     {
+        "emoji": "⬟",
+        "description": "black pentagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_pentagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬠",
+        "description": "white pentagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "white_pentagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬡",
+        "description": "white hexagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "white_hexagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬢",
+        "description": "black hexagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_hexagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬣",
+        "description": "horizontal black hexagon ",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "horizontal_black_hexagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬤",
+        "description": "black large circle",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_large_circle"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⬮",
+        "description": "black vertical ellipse",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_vertical_ellipse"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⬯",
+        "description": "white vertical ellipse",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "white_vertical_ellipse"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⭘",
+        "description": "heavy circle",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "heavy_circle"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
         "emoji": "⮏",
         "description": "anticlockwise triangle-headed top u-shaped arrow",
         "category": "Extras & Unicode",
@@ -44142,5 +49460,96 @@
         ],
         "unicode_version": "7.0",
         "ios_version": "7.0"
+    },
+    {
+        "emoji": "⮺",
+        "description": "overlapping white squares",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "overlapping_white_squares"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⮻",
+        "description": "overlapping white and black squares",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "overlapping_white_and_black_squares"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⮼",
+        "description": "overlapping black squares",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "overlapping_black_squares"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "1.1.0",
+        "ios_version": "1.1.0"
+    },
+    {
+        "emoji": "⯃",
+        "description": "horizontal black octagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "horizontal_black_octagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⯄",
+        "description": "black octagon",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "black_octagon"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "5.0",
+        "ios_version": "5.0"
+    },
+    {
+        "emoji": "⯪",
+        "description": "star with left half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "star_with_left_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "11.0",
+        "ios_version": "11.0"
+    },
+    {
+        "emoji": "⯫",
+        "description": "star with right half black",
+        "category": "Extras & Unicode",
+        "aliases": [
+            "star_with_right_half_black"
+        ],
+        "tags": [
+            ""
+        ],
+        "unicode_version": "11.0",
+        "ios_version": "11.0"
     }
 ]

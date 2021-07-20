@@ -100,6 +100,7 @@
   "1f1ea-1f1ea.svg",
   "1f1ea-1f1ec.svg",
   "1f1ea-1f1ed.svg",
+  "1f1ea-1f1f4.svg",
   "1f1ea-1f1f7.svg",
   "1f1ea-1f1f8.svg",
   "1f1ea-1f1f9.svg",
@@ -644,6 +645,7 @@
   "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.svg",
   "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.svg",
   "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg",
+  "1f3f4-e0075-e0073-e0074-e0078-e007f.svg",
   "1f3f4.svg",
   "1f3f5.svg",
   "1f3f7.svg",
@@ -3262,6 +3264,11 @@
   "e001.svg",
   "e002.svg",
   "e003.svg",
+  "e004.svg",
+  "e005.svg",
+  "e006.svg",
+  "e007.svg",
+  "e008.svg",
   "e040.svg",
   "e041.svg",
   "e042.svg",
@@ -3487,5 +3494,6 @@
   "e327.svg",
   "e328.svg",
   "e329.svg",
-  "e32b.svg"
+  "e32b.svg",
+  "e380.svg"
 ]
