@@ -10,16 +10,16 @@ default:
     paths:
       - vendor/
 
-# job for testing package against ruby version 2.6
+# job for testing package against default ruby version
 # on master branch and send test coverage result to
 # codeclimate.
-test main branch:
+test master branch defaut:
   stage: test
   before_script:
     # setup rbenv.
     - source ~/.bash_profile
-    # use ruby version 2.7.0 .
-    - rbenv global 2.7.0
+    # use default ruby version.
+    - rbenv global 3.0.0
     # install dependency gems.
     - bundle config set path 'vendor'
     - bundle install
@@ -34,15 +34,31 @@ test main branch:
   only:
     - master
 
-# job for testing package on other branches than master
-# and merge requests against 2.7.0 version.
-test ruby 2.7.0:
+test master branch ruby 2.7.2:
   stage: test
   before_script:
     # setup rbenv.
     - source ~/.bash_profile
-    # use ruby version 2.7.0 .
-    - rbenv global 2.7.0
+    # use custom ruby version.
+    - rbenv global 2.7.2
+    # install dependency gems.
+    - bundle config set path 'vendor'
+    - bundle install
+  # run tests.
+  script:
+    - script/test.sh
+  only:
+    - master
+
+# job for testing package on other branches than master
+# and merge requests against default version.
+test branch ruby default:
+  stage: test
+  before_script:
+    # setup rbenv.
+    - source ~/.bash_profile
+    # use default ruby version.
+    - rbenv global 3.0.0
     # install dependency gems.
     - bundle config set path 'vendor'
     - bundle install
@@ -55,38 +71,24 @@ test ruby 2.7.0:
   except:
     - master
 
-# jobs for testing package against older ruby versions.
-test ruby 2.6.5:
+test branch ruby 2.7.2:
   stage: test
   before_script:
     # setup rbenv.
     - source ~/.bash_profile
-    # use ruby version 2.6.5 .
-    - rbenv global 2.6.5
+    # use custom ruby version.
+    - rbenv global 2.7.2
     # install dependency gems.
     - bundle config set path 'vendor'
     - bundle install
   # run tests.
   script:
     - script/test.sh
+  only:
+    - branches
+    - merge_requests
   except:
-    - tags
-
-test ruby 2.5.7:
-  stage: test
-  before_script:
-    # setup rbenv.
-    - source ~/.bash_profile
-    # use ruby version 2.5.7 .
-    - rbenv global 2.5.7
-    # install dependency gems.
-    - bundle config set path 'vendor'
-    - bundle install
-  # run tests.
-  script:
-    - script/test.sh
-  except:
-    - tags
+    - master
 
 # deploy gems to rubygems.org whenever a tag is released.
 release to rubygems:
@@ -94,8 +96,8 @@ release to rubygems:
   script:
     # setup rbenv.
     - source ~/.bash_profile
-    # use ruby version 2.7.0
-    - rbenv global 2.7.0
+    # use default ruby version.
+    - rbenv global 3.0.0
     # create rubygems credential file for auto login.
     - script/ci_rubygems.sh
     # extract tag from git log and strip "v".
