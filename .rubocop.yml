@@ -9,7 +9,7 @@ AllCops:
     - test/**/*
     - db/**/*
     - Rakefile
-
+    - ./*.gemspec
 
 Layout/HashAlignment:
   EnforcedHashRocketStyle: table
