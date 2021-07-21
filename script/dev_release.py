@@ -4,6 +4,8 @@
 import os
 import subprocess
 
+package_name = "AzadehAfzar Negareh Emoji Library"
+
 # get path to this file's directory, then go one directory up.
 file_path = os.path.abspath(os.path.dirname(__file__))
 base_path = os.path.abspath(os.path.dirname(file_path))
@@ -34,7 +36,7 @@ for line in version_file:
 if not version or not version_info:
     raise ValueError("ERROR: version not found at version.rb.")
 
-print("This program will tag a new release of Negareh Emoji Library\n"
+print(f"This program will tag a new release of {package_name}\n"
       + "and it will push to gitlab and github for building,\n"
       + "gitlab will push a built gem to rubygems.org.\n\n"
       + f"current version is {version}\n\n")
@@ -89,7 +91,7 @@ with open(version_file_path, "w+") as file:
 # do git commit and tag and push to upstreams
 print("Commit and Tag and Push to upstream. \n\n")
 
-subprocess.call(f"git commit \"{version_file_path}\" -m \"version: Negareh Emoji Library v{new_version}\"", shell=True)
-subprocess.call(f"git tag \"v{new_version}\"", shell=True)
+subprocess.call(f"git commit \"{version_file_path}\" --sign --message \"version: {package_name} v{new_version}\"", shell=True)
+subprocess.call(f"git tag --annotate --sign --message \"new {package_name} version {new_version}\" \"v{new_version}\"", shell=True)
 subprocess.call(f"git push origin HEAD \"v{new_version}\"", shell=True)
 subprocess.call(f"git push github HEAD \"v{new_version}\"", shell=True)
