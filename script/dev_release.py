@@ -39,7 +39,7 @@ if not version or not version_info:
 print(f"This program will tag a new release of {package_name}\n"
       + "and it will push to gitlab and github for building,\n"
       + "gitlab will push a built gem to rubygems.org.\n\n"
-      + f"current version is {version}\n\n")
+      + f"current version is {version}\n")
 
 # read and convert to integer.
 print("Version is in X.Y.Z form.\n"
@@ -64,7 +64,6 @@ elif new_minor > version_info[1]:
     pass
 elif new_patch < version_info[2]:
     raise ValueError("Patch version can't be less than current version!")
-
 
 # creat an empty list for new version.rb file
 print("Writing new version. \n\n")
